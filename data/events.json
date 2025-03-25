@@ -1,28 +1,58 @@
 {
-  "events": [
-    {
-      "datum": "15 mei",
-      "titel": "Comedy Night",
-      "locatie": "Theater de Giegel",
-      "beschrijving": "Probeer maar eens niet te lachen",
-      "url": "https://example.com",
-      "afbeeldingUrl": "Probeer maar eens niet te lachen"
-    },
-    {
-      "datum": "22 mei",
-      "titel": "Stand-up Comedy Club",
-      "locatie": "Comedy Cafe",
-      "beschrijving": "Open mic night",
-      "url": "https://example.com",
-      "afbeeldingUrl": "Open mic night"
-    },
-    {
-      "datum": "5 juni",
-      "titel": "Live Podcast Show",
-      "locatie": "Theater de Molen",
-      "beschrijving": "Doe mee met het gesprek",
-      "url": "https://example.com",
-      "afbeeldingUrl": "Doe mee met het gesprek"
-    }
-  ]
+    "events": [
+        {
+            "id": 1,
+            "title": "Comedy Night",
+            "date": "2023-05-15",
+            "venue": "Theater De Lach",
+            "city": "Amsterdam",
+            "description": "Een avond vol humor en gezelligheid",
+            "ticketLink": "https://example.com/tickets/comedy-night"
+        },
+        {
+            "id": 2,
+            "title": "Stand-up Comedy Club",
+            "date": "2023-05-22",
+            "venue": "Comedy Café",
+            "city": "Utrecht",
+            "description": "Stefan presenteert zijn nieuwste materiaal",
+            "ticketLink": "https://example.com/tickets/standup-utrecht"
+        },
+        {
+            "id": 3,
+            "title": "Podcast Live",
+            "date": "2023-06-05",
+            "venue": "Pakhuis de Zwijger",
+            "city": "Amsterdam",
+            "description": "Live opname van de podcast met speciale gasten",
+            "ticketLink": "https://example.com/tickets/podcast-live"
+        },
+        {
+            "id": 4,
+            "title": "Comedy Festival",
+            "date": "2023-06-18",
+            "venue": "Openluchttheater",
+            "city": "Rotterdam",
+            "description": "Stand-up tijdens het zomerkomediefestival",
+            "ticketLink": "https://example.com/tickets/comedy-festival"
+        },
+        {
+            "id": 5,
+            "title": "Theatervoorstelling",
+            "date": "2023-07-10",
+            "venue": "Stadsschouwburg",
+            "city": "Haarlem",
+            "description": "Stefan's nieuwste theatershow",
+            "ticketLink": "https://example.com/tickets/theatershow"
+        },
+        {
+            "id": 6,
+            "title": "Bedrijfsevent",
+            "date": "2023-07-22",
+            "venue": "Conferentiecentrum",
+            "city": "Eindhoven",
+            "description": "Stefan als dagvoorzitter bij Tech Conference 2023",
+            "ticketLink": null
+        }
+    ]
 }
