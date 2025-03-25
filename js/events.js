@@ -12,11 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to parse Dutch date format like "15 mei"
     function parseDutchDate(dateString) {
-        // Handle different date formats
-        if (!dateString) return new Date();
+        console.log("Parsing date:", dateString);
         
-        // If it's already a valid date string that JavaScript can parse
-        if (!isNaN(new Date(dateString).getTime())) {
+        // If it's a standard date format
+        if (dateString.includes('-')) {
             return new Date(dateString);
         }
         
@@ -26,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const day = parseInt(parts[0]);
             const monthStr = parts[1].toLowerCase();
             
-            // Dutch month names (both full and abbreviated)
+            // Dutch month names mapping to month number (0-based)
             const monthMap = {
                 'jan': 0, 'januari': 0,
                 'feb': 1, 'februari': 1,
@@ -42,13 +41,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 'dec': 11, 'december': 11
             };
             
-            const month = monthMap[monthStr] || 0;
-            const year = new Date().getFullYear();
+            const month = monthMap[monthStr] !== undefined ? monthMap[monthStr] : 0;
             
-            return new Date(year, month, day);
+            // Add the current year, or next year if the month is already past
+            const now = new Date();
+            let year = now.getFullYear();
+            
+            // If the month is earlier in the year than current month, assume it's for next year
+            if (month < now.getMonth()) {
+                year += 1;
+            }
+            
+            const result = new Date(year, month, day);
+            console.log(`Parsed "${dateString}" as:`, result);
+            return result;
         }
         
-        // Default if can't parse
+        // Default fallback
         return new Date();
     }
     
@@ -69,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to create event card
     function createEventCard(event) {
+        console.log("Creating card for event:", event);
         const formattedDate = formatDate(event.date);
         
         const eventCard = document.createElement('div');
@@ -91,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to load events from JSON
     function loadEvents() {
+        console.log("Trying to load events...");
         // Fetch the events data
         fetch('data/events.json')
             .then(response => {
@@ -100,18 +111,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.json();
             })
             .then(data => {
+                console.log("Loaded data:", data);
+                
                 // Clear existing events (if any)
                 eventsContainer.innerHTML = '';
                 
                 // Check if we have events
-                if (!data.events || !Array.isArray(data.events)) {
-                    throw new Error('No events found in data');
+                if (!data.events || !Array.isArray(data.events) || data.events.length === 0) {
+                    console.log("No events found in data");
+                    eventsContainer.innerHTML = `
+                        <div class="no-events">
+                            <p>Er zijn momenteel geen geplande evenementen.</p>
+                            <p>Kom binnenkort terug voor updates of volg mij op social media.</p>
+                        </div>
+                    `;
+                    return;
                 }
                 
                 // Sort events by date
                 const sortedEvents = data.events.sort((a, b) => {
                     return parseDutchDate(a.date) - parseDutchDate(b.date);
                 });
+                
+                console.log("Sorted events:", sortedEvents);
                 
                 // Filter events that are in the future or today
                 const today = new Date();
@@ -122,6 +144,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     eventDate.setHours(0, 0, 0, 0); // Set to start of day
                     return eventDate >= today;
                 });
+                
+                console.log("Upcoming events:", upcomingEvents);
                 
                 // Display events or a message if no events
                 if (upcomingEvents.length > 0) {
@@ -154,7 +178,9 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Error loading events:', error);
-                // Use the fallback events already in HTML if any
+                
+                // Use the fallback events already in HTML
+                // They're already there, so we don't need to do anything
             });
     }
     
