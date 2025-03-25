@@ -1,3 +1,5 @@
+
+
 // Ultra-simpele menu functionaliteit
 document.addEventListener('DOMContentLoaded', function() {
     // Exacte IDs gebruiken in plaats van classes
@@ -17,36 +19,40 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
     
-   // Vereenvoudigde mobiele menu handler
-document.addEventListener('DOMContentLoaded', function() {
-    console.log("DOM geladen, menu script actief");
-    
-    // Menu elementen selecteren
-    const menuToggle = document.querySelector('.mobile-menu-toggle');
-    const nav = document.querySelector('nav');
-    
-    // Alleen doorgaan als beide elementen bestaan
-    if (!menuToggle || !nav) {
-        console.error("Menu elementen niet gevonden:", {menuToggle, nav});
-        return;
+    // Menu toggle functie
+    function toggleMenu() {
+        var isOpen = navMenu.classList.contains('active');
+        
+        if (isOpen) {
+            navMenu.classList.remove('active');
+            menuButton.classList.remove('active');
+            overlay.style.display = 'none';
+            document.body.style.overflow = '';
+        } else {
+            navMenu.classList.add('active');
+            menuButton.classList.add('active');
+            overlay.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Voorkom scrollen
+        }
     }
     
-    console.log("Menu elementen gevonden:", {menuToggle, nav});
-    
-    // Click event direct aan de knop toevoegen
-    menuToggle.onclick = function(e) {
+    // Event listeners
+    menuButton.addEventListener('click', function(e) {
         e.preventDefault();
-        console.log("Menu knop geklikt");
-        
-        menuToggle.classList.toggle('active');
-        nav.classList.toggle('active');
-        
-        console.log("Menu status na klik:", nav.classList.contains('active') ? "open" : "gesloten");
-    };
+        toggleMenu();
+    });
     
-    // Update copyright jaar
-    const yearSpan = document.getElementById('current-year');
-    if (yearSpan) {
-        yearSpan.textContent = new Date().getFullYear();
-    }
+    overlay.addEventListener('click', function() {
+        toggleMenu();
+    });
+    
+    // Sluit menu bij klikken op een link
+    var menuLinks = navMenu.querySelectorAll('a');
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            toggleMenu();
+        });
+    });
 });
+
+console.log("Gebouwd door Bo Lansdaal")
