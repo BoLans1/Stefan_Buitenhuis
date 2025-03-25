@@ -1,0 +1,28 @@
+{
+  "evenementen": [
+    {
+      "datum": 2,
+      "titel": "Comedy Night",
+      "locatie": "15 mei",
+      "beschrijving": "Theater de Giegel",
+      "url": "Amsterdam",
+      "afbeeldingUrl": "Probeer maar eens niet te lachen"
+    },
+    {
+      "datum": 3,
+      "titel": "Stand-up Comedy Club",
+      "locatie": "22 mei",
+      "beschrijving": "Comedy Cafe",
+      "url": "Utrecht",
+      "afbeeldingUrl": "Open mic night"
+    },
+    {
+      "datum": 4,
+      "titel": "Live Podcast Show",
+      "locatie": "5 juni",
+      "beschrijving": "Theater de Molen",
+      "url": "Beuningen",
+      "afbeeldingUrl": "Doe mee met het gesprek"
+    }
+  ]
+}
