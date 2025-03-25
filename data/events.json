@@ -26,6 +26,15 @@
       "description": "Doe mee met het gesprek",
       "ticketLink": "https://example.com",
       "imageUrl": ""
+    },
+    {
+      "date": "8 juni",
+      "title": "Stand-up and Laugh",
+      "venue": "De Singel",
+      "city": "Hees",
+      "description": "Applaus alsjeblieft",
+      "ticketLink": "https://example.com",
+      "imageUrl": ""
     }
   ]
 }
