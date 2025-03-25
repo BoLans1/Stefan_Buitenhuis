@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Podcaster - Stefan Buitenhuis</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -27,7 +27,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="comedian.html">Comedian</a></li>
                 <li><a href="acteur.html">Acteur</a></li>
-                <li><a href="podcaster.html" class="active">Podcaster</a></li>
+                <li><a href="podcaster.html">Podcaster</a></li>
                 <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -221,7 +221,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year">2023</span> Stefan Buitenhuis. Alle rechten voorbehouden.</p>
+                <p>&copy; <span id="current-year">2025</span> Stefan Buitenhuis. Alle rechten voorbehouden.</p>
             </div>
         </div>
     </footer>
@@ -235,5 +235,21 @@
             });
         });
     </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var menuBtn = document.querySelector('.mobile-menu-toggle');
+      var nav = document.querySelector('nav');
+      
+      if (menuBtn && nav) {
+        menuBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          console.log('Menu knop geklikt');
+          nav.classList.toggle('active');
+          menuBtn.classList.toggle('active');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
