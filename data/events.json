@@ -6,7 +6,7 @@
       "locatie": "Theater de Giegel",
       "beschrijving": "Probeer maar eens niet te lachen",
       "url": "https://example.com",
-      "afbeeldingUrl": "Probeer maar eens niet te lachen"
+      "afbeeldingUrl": ""
     },
     {
       "datum": "22 mei",
@@ -14,7 +14,7 @@
       "locatie": "Comedy Cafe",
       "beschrijving": "Open mic night",
       "url": "https://example.com",
-      "afbeeldingUrl": "Open mic night"
+      "afbeeldingUrl": ""
     },
     {
       "datum": "5 juni",
@@ -22,7 +22,7 @@
       "locatie": "Theater de Molen",
       "beschrijving": "Doe mee met het gesprek",
       "url": "https://example.com",
-      "afbeeldingUrl": "Doe mee met het gesprek"
+      "afbeeldingUrl": ""
     }
   ]
 }
