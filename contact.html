@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Stefan Buitenhuis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo/logo.png" alt="Stefan Buitenhuis Logo">
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu openen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comedian.html">Comedian</a></li>
+                <li><a href="acteur.html">Acteur</a></li>
+                <li><a href="podcaster.html">Podcaster</a></li>
+                <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('images/comedian/comedian1.jpg');">
+            <div class="container">
+                <h1>Contact</h1>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Neem contact op met Stefan</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
+                            Vivamus hendrerit arcu sed erat molestie vehicula. 
+                        </p>
+                        
+                        <div class="contact-card">
+                            <div class="contact-card-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:info@stefanbuitenhuis.nl">info@stefanbuitenhuis.nl</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-card-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h3>Telefoon</h3>
+                                    <p><a href="tel:+31612345678">+31 6 12345678</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-card-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <h3>Boekingen</h3>
+                                    <p><a href="mailto:boekingen@stefanbuitenhuis.nl">boekingen@stefanbuitenhuis.nl</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-connect">
+                            <h3>Volg mij op social media</h3>
+                            <div class="social-grid">
+                                <a href="#" class="social-card youtube">
+                                    <i class="fab fa-youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                                <a href="#" class="social-card twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-card tiktok">
+                                    <i class="fab fa-tiktok"></i>
+                                    <span>TikTok</span>
+                                </a>
+                                <a href="#" class="social-card instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo/logo.png" alt="Stefan Buitenhuis Logo">
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigatie</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="comedian.html">Comedian</a></li>
+                        <li><a href="acteur.html">Acteur</a></li>
+                        <li><a href="podcaster.html">Podcaster</a></li>
+                        <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Volg mij</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:info@stefanbuitenhuis.nl">info@stefanbuitenhuis.nl</a></p>
+                    <p>Tel: <a href="tel:+31612345678">+31 6 12345678</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> Stefan Buitenhuis. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Contact form submission handling
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // In een echte implementatie zou hier code staan om het formulier te verwerken
+            // Bijvoorbeeld via fetch API naar een backend service
+            
+            // Voor nu tonen we een eenvoudige bevestiging
+            alert('Dank voor je bericht! Stefan neemt zo spoedig mogelijk contact met je op.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
