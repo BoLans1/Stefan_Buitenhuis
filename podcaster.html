@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="js/main.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="header-top">
@@ -26,7 +28,7 @@
             <ul class="main-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="comedian.html">Comedian</a></li>
-                <li><a href="acteur.html">Acteur</a></li>
+                <!-- <li><a href="acteur.html">Acteur</a></li> -->
                 <li><a href="podcaster.html">Podcaster</a></li>
                 <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -35,7 +37,8 @@
     </header>
 
     <main>
-        <section class="page-hero" style="background-image: linear-gradient(#23a344, rgba(35, 163, 68, 0.8)), url('images/podcaster/podcaster1.jpg');">
+        <section class="page-hero"
+            style="background-image: linear-gradient(#23a344, rgba(35, 163, 68, 0.8)), url('images/podcaster/podcaster1.jpg');">
             <div class="container">
                 <h1>Podcaster</h1>
             </div>
@@ -45,18 +48,30 @@
             <div class="container">
                 <div class="content-block">
                     <div class="text-content">
-                        <h2>Mijn Podcasts</h2>
+                        <h2>Over Stefan als Podcaster</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
-                            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus 
-                            rhoncus ut eleifend nibh porttitor. Ut in nulla enim.
+                            Stefan Buitenhuis is podcaster, contentmaker en journalist. Hij werkte eerder voor onder
+                            andere Pointer Radio en Spraakmakers (KRO-NCRV), waar hij zijn journalistieke stem vond in
+                            verhalen die ertoe doen. Zijn stijl is betrokken, nieuwsgierig en altijd op zoek naar de
+                            mens achter het verhaal.Naast zijn werk voor de publieke omroep maakt hij ook podcasts in eigen beheer.
                         </p>
                         <p>
-                            Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus 
-                            luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-                            at interdum magna augue eget diam.
+                    
+                           In 'Parlevinken met Stefan', een ego-/kletspodcast die hij samen met zijn goede vriend Stefan
+                            van Rijs maakte, onderzoekt hij op luchtige én scherpe wijze het dagelijks leven van iemand
+                            met een fysiek beperking.
                         </p>
-                        <a href="#" class="cta-button">Luister naar mijn podcasts</a>
+                        <p>
+                            In 'Podcast IVF: zwanger worden met een beperking' vertelt hij samen met zijn partner
+                            Jonneke van Ommen op eerlijke en kwetsbare wijze over hun persoonlijke ivf-traject. Het is
+                            een audiologisch dagboek over een emotioneel en fysiek zwaar traject, waarbij
+                            embryo'selectie (PGT) een complicerende factor is.
+                        </p>
+                        <p>
+                            Met zijn podcasts zoekt Stefan altijd naar verbinding. Of het nu gaat om maatschappelijke
+                            thema's of persoonlijke verhalen.
+                        </p>
+                        <a href="#podcast-section" class="cta-button">Luister naar mijn podcasts</a>
                     </div>
                     <div class="image-content">
                         <img src="images/podcaster/podcaster2.jpg" alt="Stefan Buitenhuis als podcaster">
@@ -65,78 +80,54 @@
             </div>
         </section>
 
-        <section class="podcast-episodes">
+        <section id="podcast-section" class="content-section podcast-section">
             <div class="container">
-                <h2>Recente Afleveringen</h2>
-                <div class="episodes-grid">
-                    <div class="episode-card">
-                        <div class="episode-image">
-                            <img src="images/podcaster/episode1.jpg" alt="Podcast aflevering 1">
-                            <div class="play-button"><i class="fas fa-play"></i></div>
-                        </div>
-                        <div class="episode-info">
-                            <h3>Aflevering #1: Lorem Ipsum</h3>
-                            <p class="episode-date">15 april 2023</p>
-                            <p class="episode-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.
-                            </p>
-                            <a href="#" class="episode-link">Beluisteren</a>
-                        </div>
+                <h2>Mijn Podcasts</h2>
+
+                <div class="podcast-container">
+                    <div class="podcast-info">
+                        <h3>Parlevinken met Stefan</h3>
+                        <p>Een ego-/kletspodcast waarin Stefan Buitenhuis samen met Stefan van Rijs op luchtige én
+                            scherpe wijze het dagelijks leven van iemand met een fysiek beperking onderzoekt.</p>
                     </div>
-                    <div class="episode-card">
-                        <div class="episode-image">
-                            <img src="images/podcaster/episode2.jpg" alt="Podcast aflevering 2">
-                            <div class="play-button"><i class="fas fa-play"></i></div>
-                        </div>
-                        <div class="episode-info">
-                            <h3>Aflevering #2: Dolor Sit Amet</h3>
-                            <p class="episode-date">1 april 2023</p>
-                            <p class="episode-description">
-                                Suspendisse in justo eu magna luctus suscipit. Sed lectus.
-                            </p>
-                            <a href="#" class="episode-link">Beluisteren</a>
-                        </div>
-                    </div>
-                    <div class="episode-card">
-                        <div class="episode-image">
-                            <img src="images/podcaster/episode3.jpg" alt="Podcast aflevering 3">
-                            <div class="play-button"><i class="fas fa-play"></i></div>
-                        </div>
-                        <div class="episode-info">
-                            <h3>Aflevering #3: Consectetur Adipiscing</h3>
-                            <p class="episode-date">15 maart 2023</p>
-                            <p class="episode-description">
-                                Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor.
-                            </p>
-                            <a href="#" class="episode-link">Beluisteren</a>
-                        </div>
+                    <div class="spotify-embed">
+                        <iframe src="https://open.spotify.com/embed/show/7iooc2J0Eq9c2rOlVzQ3xx" width="100%"
+                            height="352" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
-                <div class="more-episodes">
-                    <a href="#" class="cta-button secondary">Alle afleveringen bekijken</a>
+
+                <div class="podcast-container">
+                    <div class="podcast-info">
+                        <h3>Podcast IVF: zwanger worden met een beperking</h3>
+                        <p>Een audiologisch dagboek waarin Stefan Buitenhuis en Jonneke van Ommen op eerlijke en
+                            kwetsbare wijze hun persoonlijke ivf-traject delen, inclusief de complicerende factor van
+                            embryo'selectie (PGT).</p>
+                    </div>
+                    <div class="spotify-embed">
+                        <iframe src="https://open.spotify.com/embed/show/0YYhxTVkHzNf6BemdGvnZH" width="100%"
+                            height="352" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="alt-content-section">
+        <section class="content-section">
             <div class="container">
                 <div class="content-block reverse">
-                    <div class="image-content">
-                        <img src="images/podcaster/podcaster3.jpg" alt="Stefan Buitenhuis tijdens podcast opname">
-                    </div>
                     <div class="text-content">
-                        <h2>Live Podcasts & Evenementen</h2>
+                        <h2>Podcast Boeken</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
-                            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus 
-                            rhoncus ut eleifend nibh porttitor. Ut in nulla enim.
+                            Wil je Stefan boeken voor een live podcast opname, interview of als host voor jouw podcast
+                            project? Neem dan contact op voor de mogelijkheden.
                         </p>
                         <p>
-                            Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus 
-                            luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-                            at interdum magna augue eget diam.
+                            Met zijn journalistieke achtergrond en ervaring in het maken van betekenisvolle content, kan
+                            Stefan verschillende rollen vervullen in jouw podcast project.
                         </p>
                         <a href="contact.html" class="cta-button">Boek een live podcast</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="images/podcaster/podcaster3.png" alt="Stefan Buitenhuis als podcaster">
                     </div>
                 </div>
             </div>
@@ -148,41 +139,30 @@
                 <div class="testimonials-slider">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."</p>
+                            <p>"Stefans en Jonneke zijn delen een mooi verhaal vol onzekerheden. In hun zelfgemaakte reportages leef je echt met ze mee. Mooi gemaakt samen!"</p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- Trouwe luisteraar</p>
+                            <p>- Comment op Spotify</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna."</p>
+                            <p>"De IVF podcast is zo ontroerend en informatief tegelijk. Dank voor het delen van jullie
+                                verhaal."</p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- Podcast recensent</p>
+                            <p>- Comment op Spotify</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam."</p>
+                            <p>"Parlevinken met Stefan blijft elke keer grappig. Gewone vrienden, maar wel met unieke verhalen."
+                            </p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- Podcast gast</p>
+                            <p>- Comment op Apple Podcasts</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="container">
-                <h2>Abonneer op mijn podcast</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
-                <div class="podcast-platforms">
-                    <a href="#" class="platform-link"><i class="fab fa-spotify"></i> Spotify</a>
-                    <a href="#" class="platform-link"><i class="fab fa-apple"></i> Apple Podcasts</a>
-                    <a href="#" class="platform-link"><i class="fab fa-google"></i> Google Podcasts</a>
-                    <a href="#" class="platform-link"><i class="fas fa-podcast"></i> RSS Feed</a>
                 </div>
             </div>
         </section>
@@ -199,7 +179,7 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="comedian.html">Comedian</a></li>
-                        <li><a href="acteur.html">Acteur</a></li>
+                        <!-- <li><a href="acteur.html">Acteur</a></li> -->
                         <li><a href="podcaster.html">Podcaster</a></li>
                         <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -208,10 +188,10 @@
                 <div class="footer-social">
                     <h4>Volg mij</h4>
                     <div class="social-icons">
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@stefanbuitenhuis1984?si=3TxWbs4wIv8mpAYt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.tiktok.com/@stefanbuitenhuis1?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/stefan_buitenhuis/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-contact">
@@ -225,31 +205,35 @@
             </div>
         </div>
     </footer>
-    
+
     <script>
+        // Update jaartal in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
         // Script voor podcast afspeelknoppen
         document.querySelectorAll('.play-button').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 // Hier zou de logica komen om de podcast af te spelen
                 alert('Podcast afspelen - in een werkelijke implementatie zou hier de audiospeler starten.');
             });
         });
-    </script>
-   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var menuBtn = document.querySelector('.mobile-menu-toggle');
-      var nav = document.querySelector('nav');
-      
-      if (menuBtn && nav) {
-        menuBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          console.log('Menu knop geklikt');
-          nav.classList.toggle('active');
-          menuBtn.classList.toggle('active');
+
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuBtn = document.querySelector('.mobile-menu-toggle');
+            var nav = document.querySelector('nav');
+
+            if (menuBtn && nav) {
+                menuBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Menu knop geklikt');
+                    nav.classList.toggle('active');
+                    menuBtn.classList.toggle('active');
+                });
+            }
         });
-      }
-    });
-  </script>
+    </script>
 </body>
+
 </html>

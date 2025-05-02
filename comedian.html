@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="js/main.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="header-top">
@@ -26,7 +28,7 @@
             <ul class="main-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="comedian.html">Comedian</a></li>
-                <li><a href="acteur.html">Acteur</a></li>
+                <!-- <li><a href="acteur.html">Acteur</a></li> -->
                 <li><a href="podcaster.html">Podcaster</a></li>
                 <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -35,7 +37,8 @@
     </header>
 
     <main>
-        <section class="page-hero" style="background-image: linear-gradient(#23a344, rgba(35, 163, 68, 0.8)), url('images/comedian/comedian1.jpg');">
+        <section class="page-hero"
+            style="background-image: linear-gradient(#23a344, rgba(35, 163, 68, 0.8)), url('images/comedian/comedian1.jpg');">
             <div class="container">
                 <h1>Comedian</h1>
             </div>
@@ -47,14 +50,14 @@
                     <div class="text-content">
                         <h2>Stand-up Comedy</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
-                            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus 
-                            rhoncus ut eleifend nibh porttitor. Ut in nulla enim.
+                            Stefan Buitenhuis is een opkomend en getalenteerde comedian uit Utrecht. Met een mix van
+                            zelfspot, scherpe observaties en onverwachte wendingen sleurt hij zijn publiek moeiteloos
+                            mee in zijn wereld, waar niemand (hijzelf nog het minst) gespaard blijft.
                         </p>
                         <p>
-                            Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus 
-                            luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-                            at interdum magna augue eget diam.
+                            Stefan is niet alleen winnaar van de Puncher Comedy-prijs, maar sleepte ook de beruchte Big
+                            Fat Gongshow in Comedyclub Haug in de wacht en is hij deelnemer van het Tilburgs Cabaret
+                            Festival.
                         </p>
                         <a href="contact.html" class="cta-button">Boek voor jouw evenement</a>
                     </div>
@@ -65,7 +68,49 @@
             </div>
         </section>
 
-        <section class="alt-content-section">
+        <section class="upcoming-events">
+            <div class="container">
+                <h2>Waar ben ik binnenkort te zien?</h2>
+                <div id="events-container" class="events-list">
+                    <!-- Events worden geladen vanuit events.js -->
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Mei</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Comedy Night</h3>
+                            <p class="location">Theater De Lach, Amsterdam</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Mei</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Stand-up Comedy Club</h3>
+                            <p class="location">Comedy Café, Utrecht</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">5</span>
+                            <span class="month">Juni</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Podcast Live</h3>
+                            <p class="location">Pakhuis de Zwijger, Amsterdam</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
             <div class="container">
                 <div class="content-block reverse">
                     <div class="image-content">
@@ -74,16 +119,12 @@
                     <div class="text-content">
                         <h2>Comedy Stijl</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. 
-                            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus 
-                            rhoncus ut eleifend nibh porttitor. Ut in nulla enim.
+                            Stefans stijl is een mix van zelfspot, scherpe observaties en onverwachte wendingen. Hij weet zijn publiek te raken met zijn verhalen en zijn unieke kijk op het leven. Of het nu gaat om alledaagse situaties of diepere thema's, Stefan weet altijd de juiste snaar te raken.
                         </p>
                         <p>
-                            Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus 
-                            luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-                            at interdum magna augue eget diam.
+                            Precies op het randje van ongemakkelijk en hilarisch, maar altijd met een knipoog. Hij laat je lachen, maar ook nadenken over de obstakels die iemand die slecht ter been is elke dag meemaakt. Met zijn droge en authentieke stijl weet hij het publiek te vermaken.
                         </p>
-                        <a href="#" class="cta-button">Bekijk clips</a>
+                        <a href="https://www.youtube.com/@stefanbuitenhuis1984/videos" class="cta-button">Bekijk clips</a>
                     </div>
                 </div>
             </div>
@@ -95,26 +136,26 @@
                 <div class="testimonials-slider">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."</p>
+                            <p>"Zonder dollen, ik tranen van het lachen door Stefan. Geweldig staaltje zelfspot!"</p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- De Volkskrant</p>
+                            <p>- Bezoeker Beuningen Lacht</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna."</p>
+                            <p>"Ik wist niet wat ik moest verwachten. Maar heb volgens mij wel om elke grap hard moeten lachen. Echt heel goed!"</p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- Comedy Central</p>
+                            <p>- Bezoeker Comedy Club Utrecht</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam."</p>
+                            <p>"Ik vond hem het grappigste van de hele avond."</p>
                         </div>
                         <div class="testimonial-author">
-                            <p>- NRC</p>
+                            <p>- Bezoeker Beuningen Lacht</p>
                         </div>
                     </div>
                 </div>
@@ -124,7 +165,7 @@
         <section class="cta-section">
             <div class="container">
                 <h2>Laat Stefan optreden op jouw evenement</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+               
                 <a href="contact.html" class="cta-button">Neem contact op</a>
             </div>
         </section>
@@ -141,7 +182,7 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="comedian.html">Comedian</a></li>
-                        <li><a href="acteur.html">Acteur</a></li>
+                        <!-- <li><a href="acteur.html">Acteur</a></li> -->
                         <li><a href="podcaster.html">Podcaster</a></li>
                         <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -150,10 +191,10 @@
                 <div class="footer-social">
                     <h4>Volg mij</h4>
                     <div class="social-icons">
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@stefanbuitenhuis1984?si=3TxWbs4wIv8mpAYt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.tiktok.com/@stefanbuitenhuis1?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/stefan_buitenhuis/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-contact">
@@ -168,20 +209,21 @@
         </div>
     </footer>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          var menuBtn = document.querySelector('.mobile-menu-toggle');
-          var nav = document.querySelector('nav');
-          
-          if (menuBtn && nav) {
-            menuBtn.addEventListener('click', function(e) {
-              e.preventDefault();
-              e.stopPropagation();
-              console.log('Menu knop geklikt');
-              nav.classList.toggle('active');
-              menuBtn.classList.toggle('active');
-            });
-          }
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuBtn = document.querySelector('.mobile-menu-toggle');
+            var nav = document.querySelector('nav');
+
+            if (menuBtn && nav) {
+                menuBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Menu knop geklikt');
+                    nav.classList.toggle('active');
+                    menuBtn.classList.toggle('active');
+                });
+            }
         });
-      </script>
+    </script>
 </body>
+
 </html>

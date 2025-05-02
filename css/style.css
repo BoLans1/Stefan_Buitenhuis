@@ -1049,7 +1049,7 @@ footer {
 
     /* Roles Grid */
     .roles-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /* Footer */
@@ -1097,7 +1097,7 @@ footer {
 
     /* Roles Grid */
     .roles-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     /* Episodes Grid */
@@ -1214,5 +1214,70 @@ footer {
 
     nav#stefan-main-nav {
         display: block !important;
+    }
+}
+
+.spotify-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Podcast sectie stijlen */
+.podcast-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.podcast-container {
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.podcast-info {
+    padding: 20px;
+}
+
+.podcast-info h3 {
+    margin-top: 0;
+    color: #23a344;
+}
+
+.spotify-embed {
+    width: 100%;
+}
+
+.spotify-embed iframe {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .podcast-container {
+        flex-direction: row;
+    }
+
+    .podcast-info {
+        flex: 1;
+        padding: 30px;
+    }
+
+    .spotify-embed {
+        flex: 1;
+        min-width: 300px;
+    }
+}
+
+/* Verbeterde content block stijlen */
+.content-block.reverse {
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+    .content-block.reverse {
+        flex-direction: row-reverse;
     }
 }
