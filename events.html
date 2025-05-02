@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Evenementen - Stefan Buitenhuis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/main.js" defer></script>
+    <!-- Aangepaste versie van events.js script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Reference to events container
+            const eventsContainer = document.getElementById('events-container');
+            
+            // Check if we're on a page with events
+            if (!eventsContainer) return;
+            
+            // Function to parse Dutch date format like "15 mei"
+            function parseDutchDate(dateString) {
+                console.log("Parsing date:", dateString);
+                
+                // If it's a standard date format
+                if (dateString.includes('-')) {
+                    return new Date(dateString);
+                }
+                
+                // Handle Dutch format like "15 mei"
+                const parts = dateString.split(' ');
+                if (parts.length === 2) {
+                    const day = parseInt(parts[0]);
+                    const monthStr = parts[1].toLowerCase();
+                    
+                    // Dutch month names mapping to month number (0-based)
+                    const monthMap = {
+                        'jan': 0, 'januari': 0,
+                        'feb': 1, 'februari': 1,
+                        'mrt': 2, 'maart': 2,
+                        'apr': 3, 'april': 3,
+                        'mei': 4, 'may': 4,
+                        'jun': 5, 'juni': 5,
+                        'jul': 6, 'juli': 6,
+                        'aug': 7, 'augustus': 7,
+                        'sep': 8, 'september': 8,
+                        'okt': 9, 'oktober': 9,
+                        'nov': 10, 'november': 10,
+                        'dec': 11, 'december': 11
+                    };
+                    
+                    const month = monthMap[monthStr] !== undefined ? monthMap[monthStr] : 0;
+                    
+                    // Add the current year, or next year if the month is already past
+                    const now = new Date();
+                    let year = now.getFullYear();
+                    
+                    // If the month is earlier in the year than current month, assume it's for next year
+                    if (month < now.getMonth()) {
+                        year += 1;
+                    }
+                    
+                    const result = new Date(year, month, day);
+                    console.log(`Parsed "${dateString}" as:`, result);
+                    return result;
+                }
+                
+                // Default fallback
+                return new Date();
+            }
+            
+            // Function to format date
+            function formatDate(dateString) {
+                const date = parseDutchDate(dateString);
+                const day = date.getDate();
+                
+                // Get month name in Dutch
+                const monthNames = ['Jan', 'Feb', 'Mrt', 'Apr', 'Mei', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'];
+                const month = monthNames[date.getMonth()];
+                
+                return {
+                    day: day,
+                    month: month
+                };
+            }
+            
+            // Function to create event card
+            function createEventCard(event) {
+                console.log("Creating card for event:", event);
+                const formattedDate = formatDate(event.date);
+                
+                const eventCard = document.createElement('div');
+                eventCard.className = 'event-card';
+                
+                eventCard.innerHTML = `
+                    <div class="event-date">
+                        <span class="day">${formattedDate.day}</span>
+                        <span class="month">${formattedDate.month}</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>${event.title}</h3>
+                        <p class="location">${event.venue}${event.city ? ', ' + event.city : ''}</p>
+                        ${event.ticketLink ? `<a href="${event.ticketLink}" class="ticket-link" target="_blank">Tickets & Info</a>` : ''}
+                    </div>
+                `;
+                
+                return eventCard;
+            }
+            
+            // Function to load events from JSON
+            function loadEvents() {
+                console.log("Trying to load events...");
+                // Fetch the events data
+                fetch('data/events.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log("Loaded data:", data);
+                        
+                        // Clear existing events (if any)
+                        eventsContainer.innerHTML = '';
+                        
+                        // Check if we have events
+                        if (!data.events || !Array.isArray(data.events) || data.events.length === 0) {
+                            console.log("No events found in data");
+                            eventsContainer.innerHTML = `
+                                <div class="no-events">
+                                    <p>Er zijn momenteel geen geplande evenementen.</p>
+                                    <p>Kom binnenkort terug voor updates of volg mij op social media.</p>
+                                </div>
+                            `;
+                            return;
+                        }
+                        
+                        // Sort events by date
+                        const sortedEvents = data.events.sort((a, b) => {
+                            return parseDutchDate(a.date) - parseDutchDate(b.date);
+                        });
+                        
+                        console.log("Sorted events:", sortedEvents);
+                        
+                        // Filter events that are in the future or today
+                        const today = new Date();
+                        today.setHours(0, 0, 0, 0); // Set to start of day
+                        
+                        const upcomingEvents = sortedEvents.filter(event => {
+                            const eventDate = parseDutchDate(event.date);
+                            eventDate.setHours(0, 0, 0, 0); // Set to start of day
+                            return eventDate >= today;
+                        });
+                        
+                        console.log("Upcoming events:", upcomingEvents);
+                        
+                        // Display events or a message if no events
+                        if (upcomingEvents.length > 0) {
+                            // Check if we're on the events.html page
+                            const isEventsPage = window.location.pathname.includes('events.html');
+                            
+                            // On events.html page, show all events
+                            // On other pages, show only first 6
+                            const eventsToShow = isEventsPage ? upcomingEvents : upcomingEvents.slice(0, 6);
+                            
+                            eventsToShow.forEach(event => {
+                                const eventCard = createEventCard(event);
+                                eventsContainer.appendChild(eventCard);
+                            });
+                            
+                            // Add "See all events" link if there are more events AND we're not on events.html
+                            if (upcomingEvents.length > 6 && !isEventsPage) {
+                                const moreEventsLink = document.createElement('div');
+                                moreEventsLink.className = 'more-events';
+                                moreEventsLink.innerHTML = `
+                                    <a href="events.html" class="cta-button">Alle Evenementen Bekijken</a>
+                                `;
+                                eventsContainer.parentNode.appendChild(moreEventsLink);
+                            }
+                        } else {
+                            // No upcoming events
+                            eventsContainer.innerHTML = `
+                                <div class="no-events">
+                                    <p>Er zijn momenteel geen geplande evenementen.</p>
+                                    <p>Kom binnenkort terug voor updates of volg mij op social media.</p>
+                                </div>
+                            `;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error loading events:', error);
+                        
+                        // Use the fallback events already in HTML
+                        // They're already there, so we don't need to do anything
+                    });
+            }
+            
+            // Try to load events from JSON
+            loadEvents();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo/logo.png" alt="Stefan Buitenhuis Logo">
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu openen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comedian.html">Comedian</a></li>
+                <!-- <li><a href="acteur.html">Acteur</a></li> -->
+                <li><a href="podcaster.html">Podcaster</a></li>
+                <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero"
+            style="background-image: linear-gradient(#2343a3, rgba(35, 67, 163, 0.8)), url('images/comedian/comedian1.jpg');">
+            <div class="container">
+                <h1>Evenementen</h1>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-block">
+                    <div class="text-content">
+                        <h2>Agenda</h2>
+                        <p>
+                            Hier vind je een overzicht van al mijn aankomende optredens, shows, podcast opnames en andere evenementen. 
+                            Kom langs en maak kennis met mijn werk als comedian, podcaster of presentator.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="upcoming-events">
+            <div class="container">
+                <h2>Aankomende evenementen</h2>
+                <div id="events-container" class="events-list">
+                    <!-- Events worden geladen vanuit events.js -->
+                    <!-- Standaard events als fallback -->
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Mei</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Comedy Night</h3>
+                            <p class="location">Theater De Lach, Amsterdam</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">Mei</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Stand-up Comedy Club</h3>
+                            <p class="location">Comedy Café, Utrecht</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">5</span>
+                            <span class="month">Juni</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Podcast Live</h3>
+                            <p class="location">Pakhuis de Zwijger, Amsterdam</p>
+                            <a href="#" class="ticket-link">Tickets & Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Wil je Stefan boeken?</h2>
+                <p>
+                    Heb je interesse om Stefan te boeken voor een evenement, podcast, presentatie of comedy show?
+                    Neem dan contact op voor de mogelijkheden en beschikbaarheid.
+                </p>
+                <a href="contact.html" class="cta-button">Neem contact op</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo/logo.png" alt="Stefan Buitenhuis Logo">
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigatie</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="comedian.html">Comedian</a></li>
+                        <!-- <li><a href="acteur.html">Acteur</a></li> -->
+                        <li><a href="podcaster.html">Podcaster</a></li>
+                        <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Volg mij</h4>
+                    <div class="social-icons">
+                        <a href="https://youtube.com/@stefanbuitenhuis1984?si=3TxWbs4wIv8mpAYt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.tiktok.com/@stefanbuitenhuis1?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/stefan_buitenhuis/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:info@stefanbuitenhuis.nl">info@stefanbuitenhuis.nl</a></p>
+                    <p>Tel: <a href="tel:+31612345678">+31 6 12345678</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> Stefan Buitenhuis. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Update jaartal in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            var menuBtn = document.querySelector('.mobile-menu-toggle');
+            var nav = document.querySelector('nav');
+            
+            if (menuBtn && nav) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Menu knop geklikt');
+                    nav.classList.toggle('active');
+                    menuBtn.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
