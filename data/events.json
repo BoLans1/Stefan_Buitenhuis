@@ -63,5 +63,13 @@
       "ticketLink": "https://example.com",
       "imageUrl": ""
     }
+  ],
+  "news": [
+    {
+      "title": "Stefan wint de Comedy Award",
+      "text": "Geheel volgens verwachting wint Stefan de eerste prijs in de Nederlands Comedy Award. 1200 deelnemers deden mee, maar niemand bleek grappiger uit de hoek te komen dan Stefan.",
+      "ctaText": "Lees meer",
+      "ctaLink": "https://example.com"
+    }
   ]
 }
