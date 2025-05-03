@@ -64,12 +64,5 @@
       "imageUrl": ""
     }
   ],
-  "news": [
-    {
-      "title": "Nieuwe show aangekondigd!",
-      "text": "Ik ben blij om aan te kondigen dat ik binnenkort een nieuwe show ga doen...",
-      "ctaText": "Tickets kopen",
-      "ctaLink": "https://example.com/tickets"
-    }
-  ]
+  "news": []
 }
