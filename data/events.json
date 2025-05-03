@@ -1,66 +1,12 @@
 {
   "events": [
     {
-      "date": "7 mei",
-      "title": "Tilburgs Cabaret Festival",
-      "venue": "Stadstheater De Boemel",
-      "city": "Tilburg",
-      "description": "Voorronde",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "8 mei",
-      "title": "Open Mic Night",
-      "venue": "Comedy Cafe Paradox",
-      "city": "Tilburg",
-      "description": "Open mic night",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "9 mei",
-      "title": "Enthousiasper Comedy Night",
-      "venue": "Theater de Kromme Haan",
-      "city": "Bunnik",
-      "description": "Doe mee met het gesprek",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "12 mei",
-      "title": "Comedy Komeet",
-      "venue": "Eetcafe Oerknal",
-      "city": "Amsterdam",
-      "description": "Applaus alsjeblieft",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "20 mei",
-      "title": "Comedy",
-      "venue": "Het Huis van Eemnes",
-      "city": "Eemnes",
+      "date": "Stefan wint de Comedy Award",
+      "title": "Geheel volgens verwachting wint Stefan de eerste prijs in de Nederlands Comedy Award. 1200 deelnemers deden mee, maar niemand bleek grappiger uit de hoek te komen dan Stefan.",
+      "venue": "Lees meer",
+      "city": "https://example.com",
       "description": "",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "01 juni",
-      "title": "Comedy Night",
-      "venue": "Comedyclub de Brucht",
-      "city": "Leiden",
-      "description": "",
-      "ticketLink": "https://example.com",
-      "imageUrl": ""
-    },
-    {
-      "date": "25 oktober",
-      "title": "Duivense StandUp Festival",
-      "venue": "Festivalterrein",
-      "city": "Duiven",
-      "description": "",
-      "ticketLink": "https://example.com",
+      "ticketLink": "",
       "imageUrl": ""
     }
   ]
