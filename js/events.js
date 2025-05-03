@@ -1,14 +1,24 @@
 /**
  * Stefan Buitenhuis Website
- * Events management script
+ * Events and News management script
  */
 
 document.addEventListener('DOMContentLoaded', function() {
     // Reference to events container
     const eventsContainer = document.getElementById('events-container');
     
-    // Check if we're on a page with events
-    if (!eventsContainer) return;
+    // Reference to news container
+    const newsContainer = document.getElementById('news-container');
+    
+    // Load events if we're on a page with events
+    if (eventsContainer) {
+        loadEvents();
+    }
+    
+    // Load news if we're on a page with news
+    if (newsContainer) {
+        loadNews();
+    }
     
     // Function to parse Dutch date format like "15 mei"
     function parseDutchDate(dateString) {
@@ -99,6 +109,25 @@ document.addEventListener('DOMContentLoaded', function() {
         return eventCard;
     }
     
+    // Function to create news item
+    function createNewsItem(newsItem) {
+        console.log("Creating news item:", newsItem);
+        
+        const newsElement = document.createElement('div');
+        newsElement.className = 'news-item';
+        
+        newsElement.innerHTML = `
+            <div class="news-content">
+                <h3>${newsItem.title}</h3>
+                <p>${newsItem.text}</p>
+                ${newsItem.ctaText && newsItem.ctaLink ? 
+                  `<a href="${newsItem.ctaLink}" class="cta-button">${newsItem.ctaText}</a>` : ''}
+            </div>
+        `;
+        
+        return newsElement;
+    }
+    
     // Function to load events from JSON
     function loadEvents() {
         console.log("Trying to load events...");
@@ -149,16 +178,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Display events or a message if no events
                 if (upcomingEvents.length > 0) {
-                    // Only show the first 3-6 events depending on screen size
-                    const eventsToShow = upcomingEvents.slice(0, 6);
+                    // Check if we're on the events.html page
+                    const isEventsPage = window.location.pathname.includes('events.html');
+                    
+                    // On events.html page, show all events
+                    // On other pages, show only first 6
+                    const eventsToShow = isEventsPage ? upcomingEvents : upcomingEvents.slice(0, 6);
                     
                     eventsToShow.forEach(event => {
                         const eventCard = createEventCard(event);
                         eventsContainer.appendChild(eventCard);
                     });
                     
-                    // Add "See all events" link if there are more events
-                    if (upcomingEvents.length > 6) {
+                    // Add "See all events" link if there are more events AND we're not on events.html
+                    if (upcomingEvents.length > 6 && !isEventsPage) {
                         const moreEventsLink = document.createElement('div');
                         moreEventsLink.className = 'more-events';
                         moreEventsLink.innerHTML = `
@@ -184,6 +217,56 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
     
-    // Try to load events from JSON
-    loadEvents();
+   
+// Function to load news from JSON
+function loadNews() {
+    console.log("Trying to load news...");
+    // Fetch the same JSON file (it now contains both events and news)
+    fetch('data/events.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Loaded data for news:", data);
+            
+            // Reference to news section
+            const newsSection = newsContainer.closest('.news-section');
+            
+            // Check if we have news
+            if (!data.news || !Array.isArray(data.news) || data.news.length === 0) {
+                console.log("No news found in data");
+                // Hide the section if no news
+                if (newsSection) {
+                    newsSection.style.display = 'none';
+                }
+                return;
+            }
+            
+            // Show the section if we have news
+            if (newsSection) {
+                newsSection.style.display = 'block';
+            }
+            
+            // Clear existing news (if any)
+            newsContainer.innerHTML = '';
+            
+            // Show the first news item
+            const newsItem = data.news[0];
+            console.log("News item to display:", newsItem);
+            const newsElement = createNewsItem(newsItem);
+            newsContainer.appendChild(newsElement);
+        })
+        .catch(error => {
+            console.error('Error loading news:', error);
+            
+            // Hide the section if there's an error
+            const newsSection = newsContainer.closest('.news-section');
+            if (newsSection) {
+                newsSection.style.display = 'none';
+            }
+        });
+}
 });
