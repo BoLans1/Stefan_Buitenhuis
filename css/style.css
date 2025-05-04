@@ -463,6 +463,11 @@ nav.active {
     display: inline-block;
 }
 
+.more-events {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+}
+
 /* ====== Roles Grid ====== */
 .roles-grid {
     display: grid;
@@ -1303,7 +1308,7 @@ footer {
 }
 
 .news-content h3 {
-    color: #333;
+    color: var(--primary-dark);
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 24px;
@@ -1337,9 +1342,4 @@ footer {
     .news-content h3 {
         font-size: 20px;
     }
-}
-
-.more-events {
-    text-align: center;
-    margin-top: var(--spacing-xl);
 }
