@@ -64,5 +64,12 @@
       "imageUrl": ""
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Stefan is deelnemer van het Tilburgs Cabaret Festival",
+      "text": "Stefan mag deelnemen aan het Tilburgs Cabaret Festival. ",
+      "ctaText": "Kom me supporten! ",
+      "ctaLink": "https://www.schouwburgconcertzaaltilburg.nl/agenda/voorronde-2-tilburgs-cabaret-festival-2025"
+    }
+  ]
 }
