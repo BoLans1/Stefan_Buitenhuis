@@ -6,7 +6,7 @@
       "venue": "Stadstheater De Boemel",
       "city": "Tilburg",
       "description": "Voorronde",
-      "ticketLink": "https://example.com",
+      "ticketLink": "https://apps.ticketmatic.com/widgets/tilburg_theaters/addtickets?edit=yes&event=39506&extraevents=&flow=basketwithcheckout&oncompletion=return&reservemoretickets=yes&returnurl=https%3A%2F%2Fwww.schouwburgconcertzaaltilburg.nl%2Fmvc%2Fevent%2Freturn&accesskey=d99feaf267b9950442391dca&signature=9A871CB44AD4D1D67414126631DBB3786B9222906E2EDED3C62C49DF8808E209#!/addtickets",
       "imageUrl": ""
     },
     {
@@ -15,16 +15,16 @@
       "venue": "Comedy Cafe Paradox",
       "city": "Tilburg",
       "description": "Open mic night",
-      "ticketLink": "https://example.com",
+      "ticketLink": "https://paradoxtilburg.nl/programma/stand-up-comedy-cafe-4/",
       "imageUrl": ""
     },
     {
       "date": "9 mei",
-      "title": "Enthousiasper Comedy Night",
+      "title": "Enthousiasper Comedy Night (UITVERKOCHT)",
       "venue": "Theater de Kromme Haan",
       "city": "Bunnik",
       "description": "Doe mee met het gesprek",
-      "ticketLink": "https://example.com",
+      "ticketLink": "",
       "imageUrl": ""
     },
     {
@@ -33,16 +33,16 @@
       "venue": "Eetcafe Oerknal",
       "city": "Amsterdam",
       "description": "Applaus alsjeblieft",
-      "ticketLink": "https://example.com",
+      "ticketLink": "https://bash.social/e/ft6Y2k5bgydK?u=0",
       "imageUrl": ""
     },
     {
       "date": "20 mei",
-      "title": "Comedy",
+      "title": "Stand-Up Comedy (met MC Bert Keurentjes)",
       "venue": "Het Huis van Eemnes",
       "city": "Eemnes",
       "description": "",
-      "ticketLink": "https://example.com",
+      "ticketLink": "https://tickets.huisvaneemnes.nl/nl-NL/Show/Details/Stand-up-Comedy-20-mei-691",
       "imageUrl": ""
     },
     {
@@ -51,7 +51,7 @@
       "venue": "Comedyclub de Brucht",
       "city": "Leiden",
       "description": "",
-      "ticketLink": "https://example.com",
+      "ticketLink": "https://www.comedyclubdeburcht.nl/events/0043-1-juni-2025-open-mic/",
       "imageUrl": ""
     },
     {
@@ -60,16 +60,16 @@
       "venue": "Festivalterrein",
       "city": "Duiven",
       "description": "",
-      "ticketLink": "https://example.com",
+      "ticketLink": "",
       "imageUrl": ""
     }
   ],
   "news": [
     {
-      "title": "Nieuwe show aangekondigd!",
-      "text": "Ik ben blij om aan te kondigen dat ik binnenkort een nieuwe show ga doen...",
-      "ctaText": "Tickets kopen",
-      "ctaLink": "https://example.com/tickets"
+      "title": "Stefan is deelnemer van het Tilburgs Cabaret Festival",
+      "text": "Uit maar liefst 42 inzendingen is Stefan Buitenhuis geselecteerd als ??n van de twaalf deelnemers aan het Tilburgs Cabaret Festival! Hij staat in de tweede voorronde op 7 mei. Als hij doorgaat, speelt hij in de halve finale op 14 of 21 mei.\n\nPublieksstemmen spelen een belangrijke rol, dus jouw support maakt ?cht het verschil. Kom kijken, lach hard en stem Stefan naar de halve finale!",
+      "ctaText": "Kom mij supporten! ",
+      "ctaLink": "https://www.schouwburgconcertzaaltilburg.nl/agenda/voorronde-2-tilburgs-cabaret-festival-2025"
     }
   ]
 }
