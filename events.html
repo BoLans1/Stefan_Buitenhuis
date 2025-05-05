@@ -155,10 +155,10 @@
                         
                         // Display events or a message if no events
                         if (upcomingEvents.length > 0) {
-                            // Check if we're on the events.html page
-                            const isEventsPage = window.location.pathname.includes('events.html');
+                            // Check if we're on the events page
+                            const isEventsPage = window.location.pathname.includes('events');
                             
-                            // On events.html page, show all events
+                            // On events page, show all events
                             // On other pages, show only first 6
                             const eventsToShow = isEventsPage ? upcomingEvents : upcomingEvents.slice(0, 6);
                             
@@ -167,12 +167,12 @@
                                 eventsContainer.appendChild(eventCard);
                             });
                             
-                            // Add "See all events" link if there are more events AND we're not on events.html
+                            // Add "See all events" link if there are more events AND we're not on events
                             if (upcomingEvents.length > 6 && !isEventsPage) {
                                 const moreEventsLink = document.createElement('div');
                                 moreEventsLink.className = 'more-events';
                                 moreEventsLink.innerHTML = `
-                                    <a href="events.html" class="cta-button">Alle Evenementen Bekijken</a>
+                                    <a href="events" class="cta-button">Alle Evenementen Bekijken</a>
                                 `;
                                 eventsContainer.parentNode.appendChild(moreEventsLink);
                             }
@@ -203,7 +203,7 @@
     <header>
         <div class="header-top">
             <div class="logo">
-                <a href="index.html">
+                <a href="index">
                     <img src="images/logo/logo.png" alt="Stefan Buitenhuis Logo">
                 </a>
             </div>
@@ -215,12 +215,12 @@
         </div>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="comedian.html">Comedian</a></li>
-                <!-- <li><a href="acteur.html">Acteur</a></li> -->
-                <li><a href="podcaster.html">Podcaster</a></li>
-                <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="comedian">Comedian</a></li>
+                <!-- <li><a href="acteur">Acteur</a></li> -->
+                <li><a href="podcaster">Podcaster</a></li>
+                <li><a href="dagvoorzitter">Dagvoorzitter & Presentator</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -297,7 +297,7 @@
                     Heb je interesse om Stefan te boeken voor een evenement, podcast, presentatie of comedy show?
                     Neem dan contact op voor de mogelijkheden en beschikbaarheid.
                 </p>
-                <a href="contact.html" class="cta-button">Neem contact op</a>
+                <a href="contact" class="cta-button">Neem contact op</a>
             </div>
         </section>
     </main>
@@ -311,12 +311,12 @@
                 <div class="footer-nav">
                     <h4>Navigatie</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="comedian.html">Comedian</a></li>
-                        <!-- <li><a href="acteur.html">Acteur</a></li> -->
-                        <li><a href="podcaster.html">Podcaster</a></li>
-                        <li><a href="dagvoorzitter.html">Dagvoorzitter & Presentator</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="comedian">Comedian</a></li>
+                        <!-- <li><a href="acteur">Acteur</a></li> -->
+                        <li><a href="podcaster">Podcaster</a></li>
+                        <li><a href="dagvoorzitter">Dagvoorzitter & Presentator</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
@@ -330,7 +330,7 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p>Email: <a href="mailto:stefan.buitenhuis@gmail.com">stefan.buitenhuis@gmail.com</a></p>
+                    <p>E-mail: <a href="mailto:stefan.buitenhuis@gmail.com">stefan.buitenhuis@gmail.com</a></p>
                     <!-- <p>Tel: <a href="tel:+31612345678">+31 6 12345678</a></p> -->
                 </div>
             </div>
