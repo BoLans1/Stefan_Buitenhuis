@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "7 mei",
-      "title": "Tilburgs Cabaret Festival",
-      "venue": "Stadstheater De Boemel",
-      "city": "Tilburg",
-      "description": "Voorronde",
-      "ticketLink": "https://apps.ticketmatic.com/widgets/tilburg_theaters/addtickets?edit=yes&event=39506&extraevents=&flow=basketwithcheckout&oncompletion=return&reservemoretickets=yes&returnurl=https%3A%2F%2Fwww.schouwburgconcertzaaltilburg.nl%2Fmvc%2Fevent%2Freturn&accesskey=d99feaf267b9950442391dca&signature=9A871CB44AD4D1D67414126631DBB3786B9222906E2EDED3C62C49DF8808E209#!/addtickets",
-      "imageUrl": ""
-    },
-    {
       "date": "8 mei",
       "title": "Open Mic Night",
       "venue": "Comedy Cafe Paradox",
@@ -66,8 +57,8 @@
   ],
   "news": [
     {
-      "title": "Stefan deelnemer van het Tilburgs Cabaret Festival",
-      "text": "<align='left'>Uit maar liefst 42 inzendingen is Stefan Buitenhuis geselecteerd als 1 van de 12 deelnemers aan het <b>Tilburgs Cabaret Festival!</b> Op <b>7 mei 2025</b> staat hij in de tweede voorronde in Stadstheater De Boemel. Als hij doorgaat, speelt hij de halve finale op 14 of 21 mei. <BR><BR>\nDe andere comedians in deze voorronde zijn Sam de Schutte, Ellis Broeksteeg, Mo Hersi, Davey Geernaert en Isha van der Burg. MC is Hermes Ahmadi en de hoofdact van de avond is Wina Ricardo.<BR><BR>\n<b>Publieksstemmen</b> spelen een belangrijke rol, dus <b>jouw support</b> maakt echt het <b>verschil</b>. Kom kijken, lach hard en stem Stefan naar de halve finale! ",
+      "title": "Stefan door naar halve finale Tilburgs Cabaret Festival!",
+      "text": "Woensdagavond 7 mei stond Stefan Buitenhuis in de tweede voorronde van het Tilburgs Cabaret Festival. Het was een spannende avond met veel talentvolle comedians en mede dankzij de steun van het publiek werd Stefan gekozen tot een van de halve finalisten. Op naar de volgende ronde!\n<BR><BR>\nSamen met Stefan wisten ook Ellis Broeksteeg, Mo Hersi en Isha van der Burg een plek in de halve finale te bemachtigen. Eerder plaatsten Joppe Donckers, Dirk Waterreus, Lex van Wieren en Roy de Jong zich al voor de volgende ronde. Een mooie, diverse line-up vol aanstormend cabarettalent!\n<BR><BR>\nDe halve finales vinden opnieuw plaats in De Boemel, op dinsdag 14 mei en dinsdag 21 mei. Wie wanneer speelt, wordt donderdag bekendgemaakt. Hou de site in de gaten!\n<BR><BR>\nStefan: ?Ik ben superblij dat ik door ben! Het was een spannende avond met veel talent op het podium. Dank aan iedereen die erbij was. Jullie energie en support was top!?",
       "ctaText": "Kom mij supporten! ",
       "ctaLink": "https://www.schouwburgconcertzaaltilburg.nl/agenda/voorronde-2-tilburgs-cabaret-festival-2025"
     }
