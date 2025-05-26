@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "date": "28 mei",
+      "title": "Open Mic met MC Davine Perik",
+      "venue": "Club Haug",
+      "city": "Rotterdam",
+      "description": "Materiaal testen voor de finale van TCF",
+      "ticketLink": "https://comedyclubhaug.com/shows/open-mic-111521791",
+      "imageUrl": ""
+    },
+    {
       "date": "31 mei",
       "title": "Finale Tilburgs Cabaret Festival",
       "venue": "Studio van Schouwburg Concertzaal Tilburg",
