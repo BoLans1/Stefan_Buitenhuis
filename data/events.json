@@ -10,6 +10,15 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-09-10",
+      "title": "Open Mic Comedy Night ",
+      "venue": "Hofman, Utrecht",
+      "city": "LET OP! Kies de juiste datum",
+      "description": "(let op dat je kaarten voor de juiste datum kiest)",
+      "ticketLink": "https://www.tix4all.nl/ticketshop/hofman-utrecht",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-09-26",
       "title": "Het Vriendenfestival ",
       "venue": "Theater De Tamboer, Hoogeveen",
@@ -33,7 +42,7 @@
       "venue": "De Ogtent / Festivalterrein",
       "city": "Duiven",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://deogtent.nl/product/cul-stand-up-comedy-cafe/",
       "imageUrl": ""
     }
   ],
