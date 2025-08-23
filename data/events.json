@@ -1,12 +1,12 @@
 {
   "events": [
     {
-      "date": "13 augustus",
-      "title": "Open Mic Comedy Night ",
-      "venue": "Hofman, Utrecht",
-      "city": "LET OP! Kies de juiste datum",
-      "description": "(let op dat je kaarten voor de juiste datum kiest)",
-      "ticketLink": "https://www.tix4all.nl/ticketshop/hofman-utrecht",
+      "date": "30 augustus",
+      "title": "XL comedyshow ",
+      "venue": "Puncher Alkmaar",
+      "city": "Alkmaar",
+      "description": "",
+      "ticketLink": "https://puncher.nl/show/comedy-xl-nederlands-2/?view_buy_ticket_modal=1",
       "imageUrl": ""
     },
     {
@@ -19,6 +19,15 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-09-12",
+      "title": "Comedyshow",
+      "venue": "Podiumcafe Toos",
+      "city": "Beverwijk",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-09-26",
       "title": "Het Vriendenfestival ",
       "venue": "Theater De Tamboer, Hoogeveen",
@@ -28,10 +37,37 @@
       "imageUrl": ""
     },
     {
+      "date": "9 oktober",
+      "title": "Playground Comedy",
+      "venue": "De Vroolijke Frans",
+      "city": "Brummen (Gelderland)",
+      "description": "",
+      "ticketLink": "https://www.devroolijkefrans.nl/cultuurprogramma/comedy-night-6/",
+      "imageUrl": ""
+    },
+    {
       "date": "17 oktober",
       "title": "Deventer Comedynights",
       "venue": "De Hip",
       "city": "Deventer",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "21 oktober",
+      "title": "Comedy Events",
+      "venue": "nnb",
+      "city": "Utrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "23 oktober",
+      "title": "Comedy Events",
+      "venue": "nnb",
+      "city": "Made (Noord-Brabant)",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -50,6 +86,15 @@
       "title": "Comedy Events",
       "venue": "Nnb",
       "city": "Best (Noord-Brabant)",
+      "description": "",
+      "ticketLink": "https://shop.weeztix.com/99d5f3ad-6537-11ef-a9cb-7e126431635e/tickets?fbclid=PAZXh0bgNhZW0CMTEAAaY6-vrW0AkNbd6w0P0V19_cOl5SHBX0Yzh4T3vU0e4-2VzpBIjnb5MgyLg_aem_u0cPwDdAqxf0QyvCUy53gw&event=825e0c5e-bff9-4ff8-afc4-669c818ae4fa",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-11-02",
+      "title": "Comedy Events",
+      "venue": "nnb",
+      "city": "Zaandijk",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
