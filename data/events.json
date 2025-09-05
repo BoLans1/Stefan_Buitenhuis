@@ -15,7 +15,7 @@
       "venue": "Podiumcafe Toos",
       "city": "Beverwijk",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://podiumcafetoos.nl/event/comedy/",
       "imageUrl": ""
     },
     {
@@ -43,6 +43,15 @@
       "city": "Deventer",
       "description": "",
       "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "19 oktober",
+      "title": "Oosterhout Lacht (let op: middag)",
+      "venue": "",
+      "city": "Oosterhout",
+      "description": "",
+      "ticketLink": "https://www.tickettailor.com/events/theaterdeschelleboom/1726801",
       "imageUrl": ""
     },
     {
@@ -86,6 +95,15 @@
       "title": "Comedy Events",
       "venue": "nnb",
       "city": "Zaandijk",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-11-22",
+      "title": "Comedynight",
+      "venue": "Cafe Ons Thuis",
+      "city": "Raamsdonkveer",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
