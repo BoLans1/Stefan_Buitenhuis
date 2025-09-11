@@ -42,7 +42,7 @@
       "venue": "De Hip",
       "city": "Deventer",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://whatsupcomedy.tickable.nl/whats-up-comedy-night-deventer-17-oktober-2025?fbclid=PAVERFWAMs9X9leHRuA2FlbQIxMQABpyh5Ekgg2f9xeB0Eu_ijYWLl_1ZJ6-CILf_xsNhfaguWEXqPlkeWj0ec49dM_aem_Km8MCLpouyI5gPFwsagZ2g",
       "imageUrl": ""
     },
     {
@@ -59,15 +59,6 @@
       "title": "Comedy Events",
       "venue": "nnb",
       "city": "Utrecht",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "23 oktober",
-      "title": "Comedy Events",
-      "venue": "nnb",
-      "city": "Made (Noord-Brabant)",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
