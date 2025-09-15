@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "date": "2025-09-10",
-      "title": "Open Mic Comedy Night ",
-      "venue": "Hofman, Utrecht",
-      "city": "LET OP! Kies de juiste datum",
-      "description": "(let op dat je kaarten voor de juiste datum kiest)",
-      "ticketLink": "https://www.tix4all.nl/ticketshop/hofman-utrecht",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-09-12",
-      "title": "Comedyshow",
-      "venue": "Podiumcafe Toos",
-      "city": "Beverwijk",
-      "description": "",
-      "ticketLink": "https://podiumcafetoos.nl/event/comedy/",
-      "imageUrl": ""
-    },
-    {
       "date": "2025-09-26",
       "title": "Het Vriendenfestival ",
       "venue": "Theater De Tamboer, Hoogeveen",
@@ -95,6 +77,15 @@
       "title": "Comedynight",
       "venue": "Cafe Ons Thuis",
       "city": "Raamsdonkveer",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-12-07",
+      "title": "Open Mic (middagshow)",
+      "venue": "Gras van de Buren",
+      "city": "Utrecht",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
