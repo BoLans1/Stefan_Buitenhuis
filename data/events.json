@@ -29,7 +29,7 @@
     },
     {
       "date": "19 oktober",
-      "title": "Oosterhout Lacht (let op: middag)",
+      "title": "Oosterhout Lacht (let op: middagshow)",
       "venue": "Theater De Schelleboom",
       "city": "Oosterhout",
       "description": "",
@@ -73,6 +73,15 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-11-10",
+      "title": "Comedy Komeet (Met Stefan als MC)",
+      "venue": "Cafe Oerknal",
+      "city": "Amsterdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-11-22",
       "title": "Comedynight",
       "venue": "Cafe Ons Thuis",
@@ -82,10 +91,28 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-11-27",
+      "title": "Comedy Events ",
+      "venue": "",
+      "city": "Weesp",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-12-07",
       "title": "Open Mic (middagshow)",
       "venue": "Gras van de Buren",
       "city": "Utrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-12-14",
+      "title": "Comedy Events (let op: middagshow)",
+      "venue": "",
+      "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
