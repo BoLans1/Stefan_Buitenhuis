@@ -55,6 +55,15 @@
       "imageUrl": ""
     },
     {
+      "date": "27 oktober",
+      "title": "VOORRONDE COMEDY TALENT AWARD (5 min)",
+      "venue": "Kargadoor",
+      "city": "Utrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "30 oktober",
       "title": "Comedy Events",
       "venue": "Foodbar De Wissel",
@@ -118,5 +127,12 @@
       "imageUrl": ""
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Stefan doet mee aan de Comedy Talent Award",
+      "text": "Op <b>27 oktober 2025</b> speelt Stefan Buitenhuis in de voorronde van de <b>Comedy Talent Award</b> in <b>Kargadoor, Utrecht.</b\nTijdens deze avond staat hij samen met andere comedians op het podium om te strijden voor een plek in de volgende ronde. <br><br>\n\nStefan krijgt die avond vijf minuten speeltijd. Dat is kort, maar genoeg om keihard te lachen.<br><br>\n\nWil je hem zien optreden en tegelijkertijd nieuw comedytalent ontdekken? Kom dan naar Kargadoor en steun Stefan tijdens deze spannende voorronde.",
+      "ctaText": "Kom supporten!",
+      "ctaLink": "https://shop.weeztix.com/844347e2-7806-4e25-b505-2b98664d1de1/tickets?_gl=1%2aqky193%2a_ga%2aNTQwNDU0MTI2LjE2NzA5MzkwNTQ.%2a_ga_FJC9TDPCJ3%2aMTY5MTQwOTg3Ny4zNjQuMS4xNjkxNDEwMTU3LjAuMC4w&shop_code=jaa3m4x9&original_referer=https%3A%2F%2Fdashboard.eventix.io%2F&event=e627a375-6bac-48c6-9029-8e3c690078dc"
+    }
+  ]
 }
