@@ -83,7 +83,7 @@
     },
     {
       "date": "2025-11-10",
-      "title": "Comedy Komeet (Met Stefan als MC)",
+      "title": "Comedy Komeet (LET OP: STEFAN IS HIER MC)",
       "venue": "Cafe Oerknal",
       "city": "Amsterdam",
       "description": "",
@@ -102,7 +102,7 @@
     {
       "date": "2025-11-27",
       "title": "Comedy Events ",
-      "venue": "",
+      "venue": "nnb",
       "city": "Weesp",
       "description": "",
       "ticketLink": "",
@@ -114,13 +114,13 @@
       "venue": "Gras van de Buren",
       "city": "Utrecht",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://comedyhuis.nl/shows/open-mic-utrecht-gras-van-de-buren-7-december-2025/",
       "imageUrl": ""
     },
     {
       "date": "2025-12-14",
       "title": "Comedy Events (let op: middagshow)",
-      "venue": "",
+      "venue": "nnb",
       "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
