@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "2025-09-26",
-      "title": "Het Vriendenfestival ",
-      "venue": "Theater De Tamboer, Hoogeveen",
-      "city": "LET OP! speelt 3 vd 5 shows, meer info volgt",
-      "description": "(LET OP! aanwezig in 3 vd 5 shows, meer info volgt)",
-      "ticketLink": "https://detamboer.nl/programma/vriendenfestival-2025",
-      "imageUrl": ""
-    },
-    {
       "date": "9 oktober",
       "title": "Playground Comedy",
       "venue": "De Vroolijke Frans",
@@ -46,6 +37,15 @@
       "imageUrl": ""
     },
     {
+      "date": "23 oktober",
+      "title": "Comedy Events",
+      "venue": "nnb",
+      "city": "Made",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "25 oktober",
       "title": "Duivense StandUp Festival",
       "venue": "De Ogtent / Festivalterrein",
@@ -60,7 +60,7 @@
       "venue": "Kargadoor",
       "city": "Utrecht",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://shop.weeztix.com/844347e2-7806-4e25-b505-2b98664d1de1/tickets?_gl=1%2aqky193%2a_ga%2aNTQwNDU0MTI2LjE2NzA5MzkwNTQ.%2a_ga_FJC9TDPCJ3%2aMTY5MTQwOTg3Ny4zNjQuMS4xNjkxNDEwMTU3LjAuMC4w&shop_code=jaa3m4x9&original_referer=https%3A%2F%2Fdashboard.eventix.io%2F&event=e627a375-6bac-48c6-9029-8e3c690078dc",
       "imageUrl": ""
     },
     {
@@ -82,12 +82,39 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-11-06",
+      "title": "Start Up Comedy (HEADLINER)",
+      "venue": "Puncher Alkmaar",
+      "city": "Alkmaar",
+      "description": "",
+      "ticketLink": "https://puncher.nl/show/alkmaar-start-up-comedy-nederlands-06-11-2025/?view_buy_ticket_modal=1",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-11-10",
       "title": "Comedy Komeet (LET OP: STEFAN IS HIER MC)",
       "venue": "Cafe Oerknal",
       "city": "Amsterdam",
       "description": "",
       "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-11-13",
+      "title": "Comedy show (HEADLINER)",
+      "venue": "Puncher Haarlem",
+      "city": "Haarlem",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Start Up Comedy (HEADLINER)",
+      "venue": "Puncher Alkmaar",
+      "city": "Alkmaar",
+      "description": "",
+      "ticketLink": "https://puncher.nl/show/alkmaar-start-up-comedy-nederlands-20-11-2025/?view_buy_ticket_modal=1",
       "imageUrl": ""
     },
     {
