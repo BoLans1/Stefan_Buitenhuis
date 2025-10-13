@@ -118,6 +118,15 @@
       "imageUrl": ""
     },
     {
+      "date": "2025-11-21",
+      "title": "Comedy in DE ZON (Met Arie Koomen)",
+      "venue": "De Zon",
+      "city": "Bodegraven",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "2025-11-22",
       "title": "Comedy Night (Met Steven Brunswijk)",
       "venue": "Cafe Ons Thuis",
@@ -151,6 +160,15 @@
       "city": "Weert",
       "description": "",
       "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-12-12",
+      "title": "Voorronde Comedy Festival Limburg 2025",
+      "venue": "Ald Weishoes Venlo",
+      "city": "Venlo",
+      "description": "",
+      "ticketLink": "https://www.plt.nl/programma/comedy-festival-limburg-voorronde-3---ald-weishoes-venlo/12-12-2025-20-00",
       "imageUrl": ""
     },
     {
