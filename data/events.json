@@ -1,51 +1,6 @@
 {
   "events": [
     {
-      "date": "9 oktober",
-      "title": "Playground Comedy",
-      "venue": "De Vroolijke Frans",
-      "city": "Brummen (Gelderland)",
-      "description": "",
-      "ticketLink": "https://www.devroolijkefrans.nl/cultuurprogramma/comedy-night-6/",
-      "imageUrl": ""
-    },
-    {
-      "date": "17 oktober",
-      "title": "Deventer Comedynight (Met Wilko Terwijn)",
-      "venue": "De Hip",
-      "city": "Deventer",
-      "description": "Ook in line-up: Bas van der Meulen, Sarah Lee Ketner, Lando, Luc Mercx, Yash Master",
-      "ticketLink": "https://whatsupcomedy.tickable.nl/whats-up-comedy-night-deventer-17-oktober-2025?fbclid=PAVERFWAMs9X9leHRuA2FlbQIxMQABpyh5Ekgg2f9xeB0Eu_ijYWLl_1ZJ6-CILf_xsNhfaguWEXqPlkeWj0ec49dM_aem_Km8MCLpouyI5gPFwsagZ2g",
-      "imageUrl": ""
-    },
-    {
-      "date": "19 oktober",
-      "title": "Oosterhout Lacht (let op: middagshow)",
-      "venue": "Theater De Schelleboom",
-      "city": "Oosterhout",
-      "description": "",
-      "ticketLink": "https://www.tickettailor.com/events/theaterdeschelleboom/1726801",
-      "imageUrl": ""
-    },
-    {
-      "date": "21 oktober",
-      "title": "Humor in de Brouwerij",
-      "venue": "Biercafe Oproer",
-      "city": "Utrecht",
-      "description": "",
-      "ticketLink": "https://www.oproerbrouwerij.nl/pages/humor-in-de-brouwerij",
-      "imageUrl": ""
-    },
-    {
-      "date": "23 oktober",
-      "title": "Comedy Events",
-      "venue": "D'n Brabander",
-      "city": "Made",
-      "description": "",
-      "ticketLink": "https://grandcafedunbrabander.nl/event/humor-in-de-brouwerij-deel-3-6-standup-comediants-en-mc-max-50-kaarten/",
-      "imageUrl": ""
-    },
-    {
       "date": "25 oktober",
       "title": "Duivense StandUp Festival",
       "venue": "De Ogtent / Festivalterrein",
@@ -106,15 +61,6 @@
       "city": "Haarlem",
       "description": "",
       "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-11-20",
-      "title": "Start Up Comedy (HEADLINER)",
-      "venue": "Puncher Alkmaar",
-      "city": "Alkmaar",
-      "description": "",
-      "ticketLink": "https://puncher.nl/show/alkmaar-start-up-comedy-nederlands-20-11-2025/?view_buy_ticket_modal=1",
       "imageUrl": ""
     },
     {
