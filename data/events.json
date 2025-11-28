@@ -1,46 +1,10 @@
 {
   "events": [
     {
-      "date": "2025-11-10",
-      "title": "Comedy Komeet (LET OP: STEFAN IS HIER MC)",
-      "venue": "Cafe Oerknal",
-      "city": "Amsterdam",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-11-13",
-      "title": "Comedy dinner show (HEADLINER)",
-      "venue": "Puncher Haarlem",
-      "city": "Haarlem",
-      "description": "",
-      "ticketLink": "https://puncher.nl/show/comedy-diner-nederlands-13-11-2025/",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-11-21",
-      "title": "Comedy in DE ZON (Met Arie Koomen)",
-      "venue": "De Zon",
-      "city": "Bodegraven",
-      "description": "",
-      "ticketLink": "https://www.dezonbodegraven.nl/agenda/comedy-joost-presents-comedy-in-de-zon/",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-11-22",
-      "title": "Comedy Night (Met Steven Brunswijk)",
-      "venue": "Cafe Ons Thuis",
-      "city": "Raamsdonkveer",
-      "description": "Ook in line-up: Raymon Hofkens (MC), Jacob Hiemstra, Roy de Jong, Gerwin Schoenmakers, Eric Goossens",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-11-27",
-      "title": "Comedy Events (Met Arie Koomen)",
-      "venue": "nnb",
-      "city": "Weesp",
+      "date": "27 Februari",
+      "title": "Writersroom Open Mic",
+      "venue": "Theater De Slinger",
+      "city": "Houten",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -52,15 +16,6 @@
       "city": "Nijmegen",
       "description": "",
       "ticketLink": "https://thiemeloods.nl/index.php/event/comedy-cafe-nijmegen-8/",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-12-07",
-      "title": "Open Mic (middagshow)",
-      "venue": "Gras van de Buren",
-      "city": "Utrecht",
-      "description": "",
-      "ticketLink": "https://comedyhuis.nl/shows/open-mic-utrecht-gras-van-de-buren-7-december-2025/",
       "imageUrl": ""
     },
     {
@@ -83,9 +38,36 @@
     },
     {
       "date": "2025-12-14",
-      "title": "Comedy Events (let op: middagshow)",
-      "venue": "nnb",
+      "title": "Comedy Events (let op: middagshow, va. 15.00)",
+      "venue": "Brouwtoren",
       "city": "Nijmegen",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-12-17",
+      "title": "Comedy Avond",
+      "venue": "Ping Pong Club",
+      "city": "Utrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2025-12-22",
+      "title": "Open Mic (Nieuw materiaal testen)",
+      "venue": "De Trap Op",
+      "city": "Utrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-04-17",
+      "title": "Puck Open Podium",
+      "venue": "Huis van Puck",
+      "city": "Arnhem",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
