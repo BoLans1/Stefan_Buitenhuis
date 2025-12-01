@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "date": "14 januari",
+      "title": "Rotterdam Lacht",
+      "venue": "Studio de Bakkerij",
+      "city": "Rotterdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "27 Februari",
       "title": "Writersroom Open Mic",
       "venue": "Theater De Slinger",
