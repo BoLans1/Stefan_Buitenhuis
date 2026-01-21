@@ -1,21 +1,30 @@
 {
   "events": [
     {
-      "date": "14 januari",
-      "title": "Rotterdam Lacht",
-      "venue": "Studio de Bakkerij",
-      "city": "Rotterdam",
+      "date": "25 januari",
+      "title": "Open Mic Marathon (Stefan in show 1 van 14.00 tm 15.15)",
+      "venue": "Knock-Out Comedy Club (voorheen comedy cafe Utrecht)",
+      "city": "Utrecht",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://secure.tix4all.nl/tickets-payment/open-mic-marathon-4937/ticket",
       "imageUrl": ""
     },
     {
-      "date": "16 januari",
-      "title": "Halve finale Comedy Festival Limburg",
-      "venue": "Cultuurhuis Heerlen",
-      "city": "Heerlen",
+      "date": "11 februari",
+      "title": "Auditie Amsterdams Studenten Cabaret Festival",
+      "venue": "Knock-Out Comedy Club (voorheen comedy cafe Utrecht)",
+      "city": "Utrecht",
       "description": "",
-      "ticketLink": "https://www.plt.nl/programma/comedy-festival-limburg-halve-finale---cultuurhuis-heerlen/16-01-2026-20-00",
+      "ticketLink": "https://secure.tix4all.nl/tickets-payment/ascf-try-out-nl-5012/ticket",
+      "imageUrl": ""
+    },
+    {
+      "date": "20 februari",
+      "title": "Betty Friday",
+      "venue": "Theater de Richel",
+      "city": "Amsterdam",
+      "description": "",
+      "ticketLink": "",
       "imageUrl": ""
     },
     {
@@ -37,12 +46,30 @@
       "imageUrl": ""
     },
     {
+      "date": "28 februari",
+      "title": "Comedy Corner",
+      "venue": "",
+      "city": "Den Bosch",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "3 maart",
       "title": "Humor in de Brouwerij",
       "venue": "",
       "city": "Breda",
       "description": "",
       "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "20 maart",
+      "title": "Finale Comedy Festival Limburg",
+      "venue": "",
+      "city": "Heerlen",
+      "description": "",
+      "ticketLink": "https://bestellen.plt.nl/bestel/12931?s=plt&_gl=1*1jfttxo*_gcl_au*MTUxNjA3MjI2Mi4xNzY1NTUwMjk3",
       "imageUrl": ""
     },
     {
@@ -76,7 +103,7 @@
   "news": [
     {
       "title": "Stefan in halve finale Comedy Festival Limburg",
-      "text": "<b>Stefan </b> staat in de <b>halve finale van het Comedy Festival Limburg</b>.\nOp <b>16 januari</b> speelt hij in <b>Heerlen</b>. <br><br>\n\n<b>Support is uiteraard weer meer dan welkom</b>, dus koop kaarten voor de halve finale van Comedy Festival Limburg ",
+      "text": "<b>Stefan </b> staat in de <b>20 maart</b> in de <b>finale van het Comedy Festival Limburg</b>.\nDeze finale wordt gespeeld in de <b>Limburgzaal (400 zitplaatsen) </b> van <b>Theater Heerlen</b>. <br><br>\n\n<b>Support is uiteraard meer dan welkom</b>, dus koop nu de allerlaatste kaarten voor de grote finale van Comedy Festival Limburg ",
       "ctaText": "",
       "ctaLink": "https://www.plt.nl/programma/comedy-festival-limburg-halve-finale---cultuurhuis-heerlen/16-01-2026-20-00"
     }
