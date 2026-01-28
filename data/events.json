@@ -1,19 +1,10 @@
 {
   "events": [
     {
-      "date": "25 januari",
-      "title": "Open Mic Marathon (Stefan in show 1 van 14.00 tm 15.15)",
-      "venue": "Knock-Out Comedy Club (voorheen comedy cafe Utrecht)",
-      "city": "Utrecht",
-      "description": "",
-      "ticketLink": "https://secure.tix4all.nl/tickets-payment/open-mic-marathon-4937/ticket",
-      "imageUrl": ""
-    },
-    {
-      "date": "28 januari",
-      "title": "Comedy Corner",
-      "venue": "Bossche Brouwers aan de Vaart",
-      "city": "Den Bosch",
+      "date": "2 februri",
+      "title": "Open Mic ",
+      "venue": "Comedy Cafe Amsterdam",
+      "city": "Amsterdam",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -23,6 +14,15 @@
       "title": "Open Mic ",
       "venue": "Club Haug ",
       "city": "Rotterdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "9 februari ",
+      "title": "Open Mic ",
+      "venue": "Comedy Cafe Amsterdam",
+      "city": "Amsterdam",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -60,7 +60,7 @@
       "venue": "Ping Pong Club",
       "city": "Utrecht",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://portal.nostium.com/reservering/z1aum75sfg80/de-ping-pong-club/comedynight?fbclid=IwY2xjawPmwOFleHRuA2FlbQIxMABicmlkETFwSVRZa1FKTTI0YUxCZUs0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn1efp1sncbbmLi9RZJJnoAzyRb2lOzMvMsGyZdr3nqAMLW5xsyY99Fol7hY_aem_xswM1Y_b0XtwOn43BHfRBg",
       "imageUrl": ""
     },
     {
