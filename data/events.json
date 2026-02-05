@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "date": "2 februri",
-      "title": "Open Mic ",
-      "venue": "Comedy Cafe Amsterdam",
-      "city": "Amsterdam",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "4 februari",
-      "title": "Open Mic ",
-      "venue": "Club Haug ",
-      "city": "Rotterdam",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "9 februari ",
       "title": "Open Mic ",
       "venue": "Comedy Cafe Amsterdam",
@@ -38,11 +20,11 @@
     },
     {
       "date": "20 februari",
-      "title": "Betty Friday",
+      "title": "Betty Friday (let op dat je de juiste datum selecteert)",
       "venue": "Theater de Richel",
       "city": "Amsterdam",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://theaterderichel.nl/evenementen/betty-friday-13-sept/",
       "imageUrl": ""
     },
     {
