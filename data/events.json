@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "date": "9 februari ",
-      "title": "Open Mic ",
-      "venue": "Comedy Cafe Amsterdam",
-      "city": "Amsterdam",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "11 februari",
-      "title": "Auditie Amsterdams Studenten Cabaret Festival",
-      "venue": "Knock-Out Comedy Club (voorheen comedy cafe Utrecht)",
-      "city": "Utrecht",
-      "description": "",
-      "ticketLink": "https://secure.tix4all.nl/tickets-payment/ascf-try-out-nl-5012/ticket",
-      "imageUrl": ""
-    },
-    {
       "date": "20 februari",
       "title": "Betty Friday (let op dat je de juiste datum selecteert)",
       "venue": "Theater de Richel",
@@ -64,6 +46,15 @@
       "imageUrl": ""
     },
     {
+      "date": "12 maart",
+      "title": "Start Up Comedy",
+      "venue": "Puncher Alkmaar",
+      "city": "Alkmaar",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "20 maart",
       "title": "Finale Comedy Festival Limburg",
       "venue": "",
@@ -77,15 +68,6 @@
       "title": "Humor in de Brouwerij",
       "venue": "",
       "city": "Dongen",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "2025-04-01",
-      "title": "Oersoep Brouwlab",
-      "venue": "",
-      "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
