@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "date": "20 februari",
-      "title": "Betty Friday (let op dat je de juiste datum selecteert)",
-      "venue": "Theater de Richel",
-      "city": "Amsterdam",
-      "description": "",
-      "ticketLink": "https://theaterderichel.nl/evenementen/betty-friday-13-sept/",
-      "imageUrl": ""
-    },
-    {
-      "date": "23 februari",
-      "title": "Humor in de Brouwerij",
-      "venue": "",
-      "city": "Amstelveen",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "25 februari",
       "title": "Comedy Avond",
       "venue": "Ping Pong Club",
@@ -77,6 +59,15 @@
       "title": "Puck Open Podium",
       "venue": "Huis van Puck",
       "city": "Arnhem",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Kabarestafette",
+      "venue": "De Lindenberg",
+      "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
