@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "25 februari",
-      "title": "Comedy Avond",
-      "venue": "Ping Pong Club",
-      "city": "Utrecht",
-      "description": "",
-      "ticketLink": "https://portal.nostium.com/reservering/z1aum75sfg80/de-ping-pong-club/comedynight?fbclid=IwY2xjawPmwOFleHRuA2FlbQIxMABicmlkETFwSVRZa1FKTTI0YUxCZUs0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn1efp1sncbbmLi9RZJJnoAzyRb2lOzMvMsGyZdr3nqAMLW5xsyY99Fol7hY_aem_xswM1Y_b0XtwOn43BHfRBg",
-      "imageUrl": ""
-    },
-    {
       "date": "27 Februari",
       "title": "Writersroom Open Mic",
       "venue": "Theater De Slinger",
@@ -21,7 +12,7 @@
     {
       "date": "3 maart",
       "title": "Humor in de Brouwerij",
-      "venue": "",
+      "venue": "Frontaal Brouwcafe",
       "city": "Breda",
       "description": "",
       "ticketLink": "",
@@ -39,7 +30,7 @@
     {
       "date": "20 maart",
       "title": "Finale Comedy Festival Limburg",
-      "venue": "",
+      "venue": "Theater Heerlen",
       "city": "Heerlen",
       "description": "",
       "ticketLink": "https://bestellen.plt.nl/bestel/12931?s=plt&_gl=1*1jfttxo*_gcl_au*MTUxNjA3MjI2Mi4xNzY1NTUwMjk3",
