@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "27 Februari",
-      "title": "Writersroom Open Mic",
-      "venue": "Theater De Slinger",
-      "city": "Houten",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "3 maart",
       "title": "Humor in de Brouwerij",
       "venue": "Frontaal Brouwcafe",
@@ -46,6 +37,24 @@
       "imageUrl": ""
     },
     {
+      "date": "31 maart",
+      "title": "Selectieronde Keistad Cabaret Festival ",
+      "venue": "Miles",
+      "city": "Amersfoort",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Puncher Alkmaar (testen 30 minuten)",
+      "venue": "Puncher",
+      "city": "Alkmaar",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
       "date": "2026-04-17",
       "title": "Puck Open Podium",
       "venue": "Huis van Puck",
@@ -56,7 +65,7 @@
     },
     {
       "date": "2026-04-22",
-      "title": "Kabarestafette",
+      "title": "Kabarestafette (30 minuten",
       "venue": "De Lindenberg",
       "city": "Nijmegen",
       "description": "",
