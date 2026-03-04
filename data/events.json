@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "3 maart",
-      "title": "Humor in de Brouwerij",
-      "venue": "Frontaal Brouwcafe",
-      "city": "Breda",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "12 maart",
       "title": "Start Up Comedy",
       "venue": "Puncher Alkmaar",
@@ -68,6 +59,15 @@
       "title": "Kabarestafette (30 minuten",
       "venue": "De Lindenberg",
       "city": "Nijmegen",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "7 mei",
+      "title": "Big Fat Gongshow",
+      "venue": "Club Haug",
+      "city": "Rotterdam",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
