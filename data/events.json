@@ -1,21 +1,21 @@
 {
   "events": [
     {
-      "date": "12 maart",
-      "title": "Start Up Comedy",
-      "venue": "Puncher Alkmaar",
-      "city": "Alkmaar",
-      "description": "",
-      "ticketLink": "https://puncher.nl/show/comedy-diner-3-gangencomedy-show-12-03-2026/",
-      "imageUrl": ""
-    },
-    {
       "date": "20 maart",
       "title": "Finale Comedy Festival Limburg",
       "venue": "Theater Heerlen",
       "city": "Heerlen",
       "description": "",
       "ticketLink": "https://bestellen.plt.nl/bestel/12931?s=plt&_gl=1*1jfttxo*_gcl_au*MTUxNjA3MjI2Mi4xNzY1NTUwMjk3",
+      "imageUrl": ""
+    },
+    {
+      "date": "25 maart",
+      "title": "Open Mic",
+      "venue": "Club Haug",
+      "city": "Rotterdam",
+      "description": "",
+      "ticketLink": "",
       "imageUrl": ""
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-22",
-      "title": "Kabarestafette (30 minuten",
+      "title": "Kabarestafette (30 minuten)",
       "venue": "De Lindenberg",
       "city": "Nijmegen",
       "description": "",
