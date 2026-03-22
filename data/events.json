@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "20 maart",
-      "title": "Finale Comedy Festival Limburg",
-      "venue": "Theater Heerlen",
-      "city": "Heerlen",
-      "description": "",
-      "ticketLink": "https://bestellen.plt.nl/bestel/12931?s=plt&_gl=1*1jfttxo*_gcl_au*MTUxNjA3MjI2Mi4xNzY1NTUwMjk3",
-      "imageUrl": ""
-    },
-    {
       "date": "25 maart",
       "title": "Open Mic",
       "venue": "Club Haug",
@@ -73,12 +64,5 @@
       "imageUrl": ""
     }
   ],
-  "news": [
-    {
-      "title": "Stefan in finale Comedy Festival Limburg",
-      "text": "<b>Stefan </b> staat in de <b>20 maart</b> in de <b>finale van het Comedy Festival Limburg</b>.\nDeze finale wordt gespeeld in de <b>Limburgzaal (400 zitplaatsen) </b> van <b>Theater Heerlen</b>. <br><br>\n\n<b>Support is uiteraard meer dan welkom</b>, dus koop nu de allerlaatste kaarten voor de grote finale van Comedy Festival Limburg ",
-      "ctaText": "Tickets vind je hier",
-      "ctaLink": "https://www.plt.nl/programma/comedy-festival-limburg-de-finale-2/20-03-2026-20-30"
-    }
-  ]
+  "news": []
 }
