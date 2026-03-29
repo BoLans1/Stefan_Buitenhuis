@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "date": "25 maart",
-      "title": "Open Mic",
-      "venue": "Club Haug",
-      "city": "Rotterdam",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
-      "date": "27 maart",
-      "title": "Humor in de Brouwerij",
-      "venue": "",
-      "city": "Dongen",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "31 maart",
       "title": "Selectieronde Keistad Cabaret Festival ",
       "venue": "Miles",
@@ -29,7 +11,7 @@
     },
     {
       "date": "2026-04-04",
-      "title": "Puncher Alkmaar (testen 30 minuten)",
+      "title": "Puncher Alkmaar (eerste keer 30 minuten)",
       "venue": "Puncher",
       "city": "Alkmaar",
       "description": "",
@@ -37,10 +19,10 @@
       "imageUrl": ""
     },
     {
-      "date": "2026-04-17",
-      "title": "Puck Open Podium",
-      "venue": "Huis van Puck",
-      "city": "Arnhem",
+      "date": "2026-04-08",
+      "title": "PePijns Comedy Club",
+      "venue": "Theater Pepijn",
+      "city": "Den Haag",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -59,6 +41,42 @@
       "title": "Big Fat Gongshow",
       "venue": "Club Haug",
       "city": "Rotterdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "30 mei",
+      "title": "Enthousiasper Comedy Night",
+      "venue": "",
+      "city": "Mijdrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Finalistentour CFL",
+      "venue": "Pand P",
+      "city": "Eindhoven",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Finalistentour CFL",
+      "venue": "DOK6",
+      "city": "Panningen",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Finalistentour CFL",
+      "venue": "Kattendans",
+      "city": "Bergeijk",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
