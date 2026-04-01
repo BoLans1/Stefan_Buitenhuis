@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "31 maart",
-      "title": "Selectieronde Keistad Cabaret Festival ",
-      "venue": "Miles",
-      "city": "Amersfoort",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "2026-04-04",
       "title": "Puncher Alkmaar (eerste keer 30 minuten)",
       "venue": "Puncher",
@@ -82,5 +73,12 @@
       "imageUrl": ""
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Halve finale Keistad Cabaret Festival",
+      "text": "Stefan heeft zich geplaatst voor de halve finale van het Keistad Cabaret Festival. Meer informatie volgt snel",
+      "ctaText": "",
+      "ctaLink": ""
+    }
+  ]
 }
