@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "2026-04-04",
-      "title": "Puncher Alkmaar (eerste keer 30 minuten)",
-      "venue": "Puncher",
-      "city": "Alkmaar",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "2026-04-08",
       "title": "PePijns Comedy Club",
       "venue": "Theater Pepijn",
@@ -20,7 +11,7 @@
     },
     {
       "date": "2026-04-22",
-      "title": "Kabarestafette (30 minuten)",
+      "title": "Kabarestafette ",
       "venue": "De Lindenberg",
       "city": "Nijmegen",
       "description": "",
@@ -41,6 +32,15 @@
       "title": "Enthousiasper Comedy Night",
       "venue": "",
       "city": "Mijdrecht",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": ""
+    },
+    {
+      "date": "7 juni",
+      "title": "Comedy Events",
+      "venue": "",
+      "city": "Rotterdam",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
