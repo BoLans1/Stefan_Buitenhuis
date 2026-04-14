@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "date": "2026-04-08",
-      "title": "PePijns Comedy Club",
-      "venue": "Theater Pepijn",
-      "city": "Den Haag",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": ""
-    },
-    {
       "date": "2026-04-22",
       "title": "Kabarestafette ",
       "venue": "De Lindenberg",
@@ -29,9 +20,9 @@
     },
     {
       "date": "30 mei",
-      "title": "Enthousiasper Comedy Night",
-      "venue": "",
-      "city": "Mijdrecht",
+      "title": "Halve Finale Keistad Festival",
+      "venue": "Icoon Theater",
+      "city": "Amersfoort",
       "description": "",
       "ticketLink": "",
       "imageUrl": ""
@@ -76,7 +67,7 @@
   "news": [
     {
       "title": "Halve finale Keistad Cabaret Festival",
-      "text": "Stefan heeft zich geplaatst voor de halve finale van het Keistad Cabaret Festival. Meer informatie volgt snel",
+      "text": "Stefan heeft zich geplaatst voor de halve finale van het Keistad Cabaret Festival, die 30 mei in Icoon Theater Amersfoort zal worden gespeeld. Stefan zal deze avond twintig minuten spelen, net als mede halvefinalisten Floris de Vree, Jongens van Kolder en Aniek van Onzenoort. De andere halve finale is 29 mei. Daarin spelen Jacob Hiemstra, Paddy Schleidt, Job Spoelstra en Bange mannen. Uiteindelijk kiest de jury welke drie acts zich plaatsen voor de finale.",
       "ctaText": "",
       "ctaLink": ""
     }
