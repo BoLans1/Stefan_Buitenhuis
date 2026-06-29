@@ -31,31 +31,13 @@
       "category": "pro"
     },
     {
-<<<<<<< HEAD
-      "date": "30 mei",
-      "title": "Halve Finale Keistad Festival",
-      "venue": "Icoon Theater",
-      "city": "Amersfoort",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "wedstrijd"
-    },
-    {
-      "date": "7 juni",
-      "title": "Comedy Events",
-=======
       "date": "19 juli",
       "title": "Nijmeegse Vierdaagsefeesten",
->>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
       "venue": "",
       "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
       "imageUrl": "",
-<<<<<<< HEAD
-      "category": "pro"
-=======
       "category": "openmic"
     },
     {
@@ -67,7 +49,6 @@
       "ticketLink": "",
       "imageUrl": "",
       "category": "wedstrijd"
->>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
     },
     {
       "date": "2026-09-15",
@@ -98,8 +79,6 @@
       "ticketLink": "",
       "imageUrl": "",
       "category": "pro"
-<<<<<<< HEAD
-=======
     },
     {
       "date": "2026-11-27",
@@ -110,7 +89,6 @@
       "ticketLink": "",
       "imageUrl": "",
       "category": "openmic"
->>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
     }
   ],
   "news": []
