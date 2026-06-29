@@ -463,6 +463,39 @@ nav.active {
     display: inline-block;
 }
 
+/* ====== Event Badges ====== */
+.event-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+    font-size: var(--font-size-xs);
+    font-weight: bold;
+    border-radius: var(--border-radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+}
+
+.badge-pro {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.badge-wedstrijd {
+    background-color: #FF6B35;
+    color: var(--white);
+}
+
+.badge-eigen {
+    background-color: #6A4C93;
+    color: var(--white);
+}
+
+.badge-openmic {
+    background-color: var(--medium-gray);
+    color: var(--white);
+}
+
 .more-events {
     text-align: center;
     margin-top: var(--spacing-xl);
@@ -1301,7 +1334,7 @@ footer {
 .news-item {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -1338,7 +1371,7 @@ footer {
     .news-item {
         padding: 20px;
     }
-    
+
     .news-content h3 {
         font-size: 20px;
     }
@@ -1347,7 +1380,7 @@ footer {
 .news-item {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 30px;
     text-align: center;

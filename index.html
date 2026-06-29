@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Stefan Buitenhuis - Comedian, Podcaster & Presentator</title>
+    <title>Stefan Buitenhuis - Comedian, Dagvoorzitter & Presentator</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="js/main.js" defer></script>
     <script src="js/events.js" defer></script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJVX6N4CZ6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJVX6N4CZ6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-WJVX6N4CZ6');
-</script>
+        gtag('config', 'G-WJVX6N4CZ6');
+    </script>
 </head>
+
 <body>
     <header>
         <div class="header-top">
@@ -37,31 +39,33 @@
                 <li><a href="index">Home</a></li>
                 <li><a href="comedian">Comedian</a></li>
                 <!-- <li><a href="acteur">Acteur</a></li> -->
-                <li><a href="podcaster">Podcaster</a></li>
                 <li><a href="dagvoorzitter">Dagvoorzitter & Presentator</a></li>
+                <li><a href="podcaster">Podcaster</a></li>
+                <li><a href="events">Agenda</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero"
+            style="background-image: linear-gradient(#23a344, rgba(35, 163, 68, 0.8)), url('images/new/Comedy Festival Limburg Finale.jpg');">
             <div class="hero-content">
                 <h1>Stefan Buitenhuis</h1>
-                <p class="subtitle">Comedian, Podcaster, Dagvoorzitter & Presentator</p>
+                <p class="subtitle">Comedian, Dagvoorzitter & Presentator, Podcaster</p>
                 <a href="#over-mij" class="cta-button">Leer Mij Kennen</a>
             </div>
         </section>
 
-     <!-- Nieuws Sectie (wordt verborgen als er geen nieuws is) -->
-<section class="news-section" style="display: none;">
-    <div class="container">
-        <h2>Nieuws</h2>
-        <div id="news-container" class="news-container">
-            <!-- Nieuws wordt dynamisch geladen vanuit events.js -->
-        </div>
-    </div>
-</section>
+        <!-- Nieuws Sectie (wordt verborgen als er geen nieuws is) -->
+        <section class="news-section" style="display: none;">
+            <div class="container">
+                <h2>Nieuws</h2>
+                <div id="news-container" class="news-container">
+                    <!-- Nieuws wordt dynamisch geladen vanuit events.js -->
+                </div>
+            </div>
+        </section>
 
         <section id="over-mij" class="about-section">
             <div class="container">
@@ -69,16 +73,21 @@
                 <div class="content-block">
                     <div class="text-content">
                         <p>
-                            Ik ben Stefan Buitenhuis: comedian, dagvoorzitter, presentator, spreker, podcaster en auteur. Met scherpe humor, oprechte interesse en een flinke dosis energie breng ik mensen in beweging. Of ik nu op het podium sta als cabaretier, een evenement begeleid als dagvoorzitter, een podcast opneem of een verhaal vertel als spreker: alles draait bij mij om verbinding en een beetje relativering. </p>
-
-                            <p>Met jarenlange ervaring in verschillende rollen weet ik elk publiek te raken, te inspireren én te laten lachen. Ik geloof dat een goede presentatie of optreden niet alleen informeert, maar ook raakt. Daarom combineer ik inhoud en humor, ernst en lichtheid, spontaniteit en professionaliteit.</p>
-                            
-                            <p>Benieuwd wat ik voor jou of jouw organisatie kan betekenen? Kijk rustig rond of neem direct contact op!
+                            Stefan Buitenhuis is comedian, dagvoorzitter en presentator. Met scherpe observaties,
+                            zelfspot en een ontspannen stijl brengt hij humor en inhoud samen. Op het podium weet hij
+                            mensen aan het lachen te maken, als dagvoorzitter zorgt hij voor energie en verbinding, en
+                            als presentator haalt hij het beste uit ieder gesprek.
+                        </p>
+                        <p>
+                            Naast zijn werk op het podium is Stefan communicatieadviseur bij de Rijksoverheid en heeft
+                            hij een achtergrond als journalist en mediamaker. Die combinatie zorgt ervoor dat hij zich
+                            makkelijk in een onderwerp verdiept, de juiste vragen stelt en moeiteloos schakelt tussen
+                            luchtigheid en inhoud.
                         </p>
                         <a href="contact" class="cta-button">Neem Contact Op</a>
                     </div>
                     <div class="image-content">
-                        <img src="images/comedian/comedian1.jpg" alt="Stefan Buitenhuis op podium">
+                        <img src="images/new/07-Keistad Cabaret Festival.jpg" alt="Stefan Buitenhuis op podium">
                     </div>
                 </div>
             </div>
@@ -133,27 +142,24 @@
                     <div class="role-card">
                         <img src="images/comedian/comedian2.jpg" alt="Stefan als Comedian">
                         <h3>Comedian</h3>
-                        <p>Met een mix van zelfspot, scherpe observaties en onverwachte wendingen sleurt hij zijn publiek moeiteloos
+                        <p>Met een mix van zelfspot, scherpe observaties en onverwachte wendingen sleurt hij zijn
+                            publiek moeiteloos
                             mee in zijn wereld, waar niemand (hijzelf nog het minst) gespaard blijft.</p>
                         <a href="comedian" class="role-link">Meer over mij als comedian</a>
-                    </div>
-                    <!-- <div class="role-card">
-                        <img src="images/acteur/acteur1.jpg" alt="Stefan als Acteur">
-                        <h3>Acteur</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
-                        <a href="acteur" class="role-link">Meer over mij als acteur</a>
-                    </div> -->
-                    <div class="role-card">
-                        <img src="images/podcaster/podcaster1.jpg" alt="Stefan als Podcaster">
-                        <h3>Podcaster</h3>
-                        <p>Van lachen met vrienden in een fijne praatpodcast tot een goudeerlijk verhaal over zwanger worden met een beperking.</p>
-                        <a href="podcaster" class="role-link">Meer over mij als podcaster</a>
                     </div>
                     <div class="role-card">
                         <img src="images/presenter/presenter1.jpg" alt="Stefan als Dagvoorzitter">
                         <h3>Dagvoorzitter & Presentator</h3>
-                        <p>Scherpe vragen, goeie uiteenzettingen en een goede dosis humor. Stefan staat klaar om elk evenement nog net iets leuker te maken.</p>
+                        <p>Scherpe vragen, goeie uiteenzettingen en een goede dosis humor. Stefan staat klaar om elk
+                            evenement nog net iets leuker te maken.</p>
                         <a href="dagvoorzitter" class="role-link">Meer over mij als dagvoorzitter</a>
+                    </div>
+                    <div class="role-card">
+                        <img src="images/podcaster/podcaster1.jpg" alt="Stefan als Podcaster">
+                        <h3>Podcaster</h3>
+                        <p>Van lachen met vrienden in een fijne praatpodcast tot een goudeerlijk verhaal over zwanger
+                            worden met een beperking.</p>
+                        <a href="podcaster" class="role-link">Meer over mij als podcaster</a>
                     </div>
                 </div>
             </div>
@@ -172,18 +178,22 @@
                         <li><a href="index">Home</a></li>
                         <li><a href="comedian">Comedian</a></li>
                         <!-- <li><a href="acteur">Acteur</a></li> -->
-                        <li><a href="podcaster">Podcaster</a></li>
                         <li><a href="dagvoorzitter">Dagvoorzitter & Presentator</a></li>
+                        <li><a href="podcaster">Podcaster</a></li>
+                        <li><a href="events">Agenda</a></li>
                         <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
                     <h4>Volg mij</h4>
                     <div class="social-icons">
-                        <a href="https://youtube.com/@stefanbuitenhuis1984?si=3TxWbs4wIv8mpAYt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com/@stefanbuitenhuis1984?si=3TxWbs4wIv8mpAYt" aria-label="YouTube"><i
+                                class="fab fa-youtube"></i></a>
                         <!-- <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
-                        <a href="https://www.tiktok.com/@stefanbuitenhuis1?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://www.instagram.com/stefan_buitenhuis/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@stefanbuitenhuis1?is_from_webapp=1&sender_device=pc"
+                            aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/stefan_buitenhuis/" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-contact">
@@ -198,20 +208,21 @@
         </div>
     </footer>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var menuBtn = document.querySelector('.mobile-menu-toggle');
-        var nav = document.querySelector('nav');
-        
-        if (menuBtn && nav) {
-          menuBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            console.log('Menu knop geklikt');
-            nav.classList.toggle('active');
-            menuBtn.classList.toggle('active');
-          });
-        }
-      });
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuBtn = document.querySelector('.mobile-menu-toggle');
+            var nav = document.querySelector('nav');
+
+            if (menuBtn && nav) {
+                menuBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Menu knop geklikt');
+                    nav.classList.toggle('active');
+                    menuBtn.classList.toggle('active');
+                });
+            }
+        });
     </script>
 </body>
+
 </html>
