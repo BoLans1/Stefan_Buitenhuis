@@ -97,6 +97,36 @@
                 console.log("Creating card for event:", event);
                 const formattedDate = formatDate(event.date);
 
+                // Bepaal badge label en klasse op basis van categorie
+                let badgeHTML = '';
+                if (event.category) {
+                    let badgeLabel = '';
+                    let badgeClass = '';
+
+                    switch (event.category) {
+                        case 'pro':
+                            badgeLabel = 'Pro Show';
+                            badgeClass = 'badge-pro';
+                            break;
+                        case 'wedstrijd':
+                            badgeLabel = 'Wedstrijd';
+                            badgeClass = 'badge-wedstrijd';
+                            break;
+                        case 'eigen':
+                            badgeLabel = 'Eigen Show';
+                            badgeClass = 'badge-eigen';
+                            break;
+                        case 'openmic':
+                            badgeLabel = 'Open Mic';
+                            badgeClass = 'badge-openmic';
+                            break;
+                    }
+
+                    if (badgeLabel) {
+                        badgeHTML = `<span class="event-badge ${badgeClass}">${badgeLabel}</span>`;
+                    }
+                }
+
                 const eventCard = document.createElement('div');
                 eventCard.className = 'event-card';
 
@@ -106,7 +136,7 @@
                         <span class="month">${formattedDate.month}</span>
                     </div>
                     <div class="event-details">
-                        <h3>${event.title}</h3>
+                        <h3>${event.title}${badgeHTML}</h3>
                         <p class="location">${event.venue}${event.city ? ', ' + event.city : ''}</p>
                         ${event.ticketLink ? `<a href="${event.ticketLink}" class="ticket-link" target="_blank">Tickets & Info</a>` : ''}
                     </div>
