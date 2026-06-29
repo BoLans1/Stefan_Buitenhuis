@@ -1,18 +1,28 @@
 {
   "events": [
     {
-      "date": "2026-04-22",
-      "title": "Kabarestafette ",
-      "venue": "De Lindenberg",
-      "city": "Nijmegen",
+      "date": "9 juni",
+      "title": "Den Haag Lacht",
+      "venue": "Theater Dakota",
+      "city": "Den Haag",
       "description": "",
       "ticketLink": "",
       "imageUrl": "",
       "category": "pro"
     },
     {
-      "date": "7 mei",
-      "title": "Big Fat Gongshow",
+      "date": "19 juni ",
+      "title": "Hoorn Lacht",
+      "venue": "Theater Pakhuis",
+      "city": "Hoorn",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "pro"
+    },
+    {
+      "date": "2 juli",
+      "title": "Best of Comedy",
       "venue": "Club Haug",
       "city": "Rotterdam",
       "description": "",
@@ -21,6 +31,7 @@
       "category": "pro"
     },
     {
+<<<<<<< HEAD
       "date": "30 mei",
       "title": "Halve Finale Keistad Festival",
       "venue": "Icoon Theater",
@@ -33,12 +44,30 @@
     {
       "date": "7 juni",
       "title": "Comedy Events",
+=======
+      "date": "19 juli",
+      "title": "Nijmeegse Vierdaagsefeesten",
+>>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
       "venue": "",
-      "city": "Rotterdam",
+      "city": "Nijmegen",
       "description": "",
       "ticketLink": "",
       "imageUrl": "",
+<<<<<<< HEAD
       "category": "pro"
+=======
+      "category": "openmic"
+    },
+    {
+      "date": "29 augustus",
+      "title": "Comedy Festival Limburg presenteert",
+      "venue": "Sint Rosa Festival",
+      "city": "Sittard",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "wedstrijd"
+>>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
     },
     {
       "date": "2026-09-15",
@@ -69,14 +98,20 @@
       "ticketLink": "",
       "imageUrl": "",
       "category": "pro"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Raimkes Comedy Avond",
+      "venue": "",
+      "city": "Breda",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic"
+>>>>>>> b909e35a96fae7242880187eb65d2fb8042254b5
     }
   ],
-  "news": [
-    {
-      "title": "Halve finale Keistad Cabaret Festival",
-      "text": "Stefan heeft zich geplaatst voor de halve finale van het Keistad Cabaret Festival, die 30 mei in Icoon Theater Amersfoort zal worden gespeeld. Stefan zal deze avond twintig minuten spelen, net als mede halvefinalisten Floris de Vree, Jongens van Kolder en Aniek van Onzenoort. De andere halve finale is 29 mei. Daarin spelen Jacob Hiemstra, Paddy Schleidt, Job Spoelstra en Bange mannen. Uiteindelijk kiest de jury welke drie acts zich plaatsen voor de finale.",
-      "ctaText": "",
-      "ctaLink": ""
-    }
-  ]
+  "news": []
 }
