@@ -1,42 +1,22 @@
 {
   "events": [
     {
-      "date": "9 juni",
-      "title": "Den Haag Lacht",
-      "venue": "Theater Dakota",
-      "city": "Den Haag",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "pro"
-    },
-    {
-      "date": "19 juni ",
-      "title": "Hoorn Lacht",
-      "venue": "Theater Pakhuis",
-      "city": "Hoorn",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "pro"
-    },
-    {
-      "date": "2 juli",
+      "date": "4 juli",
       "title": "Best of Comedy",
       "venue": "Club Haug",
       "city": "Rotterdam",
       "description": "",
-      "ticketLink": "",
+      "ticketLink": "https://comedyclubhaug.com/shows/best-of-stand-up-111661690",
       "imageUrl": "",
       "category": "pro"
     },
     {
       "date": "19 juli",
       "title": "Nijmeegse Vierdaagsefeesten",
-      "venue": "",
+      "venue": "Stadseiland Stek",
       "city": "Nijmegen",
-      "description": "",
-      "ticketLink": "",
+      "description": "Geen kaarten nodig",
+      "ticketLink": "https://www.stadseilandstek.nl/#programma",
       "imageUrl": "",
       "category": "openmic"
     },
@@ -48,7 +28,7 @@
       "description": "",
       "ticketLink": "",
       "imageUrl": "",
-      "category": "wedstrijd"
+      "category": "pro"
     },
     {
       "date": "2026-09-15",
@@ -79,6 +59,26 @@
       "ticketLink": "",
       "imageUrl": "",
       "category": "pro"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "ONDER VOORBEHOUD: Nieuw Werk ",
+      "venue": "",
+      "city": "",
+      "description": "Theatersetting, 30 minuten",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Haagse Spot",
+      "venue": "",
+      "city": "",
+      "description": "Theatersetting, 20 minuten",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic"
     },
     {
       "date": "2026-11-27",
