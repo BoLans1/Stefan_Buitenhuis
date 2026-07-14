@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "date": "4 juli",
-      "title": "Best of Comedy",
-      "venue": "Club Haug",
-      "city": "Rotterdam",
-      "description": "",
-      "ticketLink": "https://comedyclubhaug.com/shows/best-of-stand-up-111661690",
-      "imageUrl": "1899-12-30T20:50:39.000Z",
-      "category": "pro"
-    },
-    {
       "date": "19 juli",
       "title": "Nijmeegse Vierdaagsefeesten",
       "venue": "Stadseiland Stek",
@@ -25,16 +15,6 @@
       "title": "Comedy Festival Limburg presenteert",
       "venue": "Sint Rosa Festival",
       "city": "Sittard",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "pro"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Finalistentour CFL",
-      "venue": "Pand P",
-      "city": "Eindhoven",
       "description": "",
       "ticketLink": "",
       "imageUrl": "",
@@ -61,9 +41,19 @@
       "category": "pro"
     },
     {
+      "date": "2026-09-19",
+      "title": "Finalistentour CFL",
+      "venue": "Pand P",
+      "city": "Eindhoven",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "pro"
+    },
+    {
       "date": "2026-11-13",
       "title": "ONDER VOORBEHOUD: Nieuw Werk ",
-      "venue": "",
+      "venue": "De Kempenaerstudio",
       "city": "Amsterdam",
       "description": "Theatersetting, 30 minuten",
       "ticketLink": "",
@@ -73,7 +63,7 @@
     {
       "date": "2026-11-19",
       "title": "Haagse Spot",
-      "venue": "",
+      "venue": "Theater Regentes",
       "city": "Den Haag",
       "description": "Theatersetting, 20 minuten",
       "ticketLink": "",
