@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "date": "19 juli",
-      "title": "Nijmeegse Vierdaagsefeesten",
-      "venue": "Stadseiland Stek",
-      "city": "Nijmegen",
-      "description": "Geen kaarten nodig",
-      "ticketLink": "https://www.stadseilandstek.nl/#programma",
-      "imageUrl": "1899-12-30T17:50:39.000Z",
-      "category": "openmic / try-out"
-    },
-    {
       "date": "29 augustus",
       "title": "Comedy Festival Limburg presenteert",
       "venue": "Sint Rosa Festival",
@@ -46,8 +36,8 @@
       "venue": "Pand P",
       "city": "Eindhoven",
       "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
+      "ticketLink": "https://pand-p.nl/event/comedy-festival-limburg-on-tour/",
+      "imageUrl": "1899-12-30T20:20:39.000Z",
       "category": "pro"
     },
     {
