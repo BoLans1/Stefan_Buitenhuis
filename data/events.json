@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "date": "29 augustus",
-      "title": "Comedy Festival Limburg presenteert",
-      "venue": "Sint Rosa Festival",
-      "city": "Sittard",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "pro"
-    },
-    {
       "date": "2026-09-16",
       "title": "Finalistentour CFL",
       "venue": "DOK6",
@@ -39,6 +29,56 @@
       "ticketLink": "https://pand-p.nl/event/comedy-festival-limburg-on-tour/",
       "imageUrl": "1899-12-30T20:20:39.000Z",
       "category": "pro"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Club Haug Open Mic",
+      "venue": "Club Haug",
+      "city": "Rotterdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic / try-out"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Beuningen Lacht",
+      "venue": "Theater de Molen",
+      "city": "Beuningen",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic / try-out"
+    },
+    {
+      "date": "1 oktober",
+      "title": "Comedy Events",
+      "venue": "",
+      "city": "Zoetermeer",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic / try-out"
+    },
+    {
+      "date": "22 oktober",
+      "title": "Comedy Events",
+      "venue": "",
+      "city": "Alblasserdam",
+      "description": "",
+      "ticketLink": "",
+      "imageUrl": "",
+      "category": "openmic / try-out"
+    },
+    {
+      "date": "26 oktober",
+      "title": "Voorronde Comedy Talent Award (5 min)",
+      "venue": "Comedyhuis Club",
+      "city": "Utrecht",
+      "description": "",
+      "ticketLink": "https://shop.weeztix.com/844347e2-7806-4e25-b505-2b98664d1de1/tickets?_gl=1%2a1amkeqt%2a_gcl_au%2aMTUyNzc4MDUuMTc0OTAyOTAyMy43NzY4Mzk3NjguMTc1MjQ4NjgyMC4xNzUyNDg3OTEw%2a_ga%2aMTIwNDk4ODMxNS4xNzQxMDcxODI2%2a_ga_FJC9TDPCJ3%2aczE3NTI0ODMzODYkbzIzMSRnMSR0MTc1MjQ4ODAxOCRqNTYkbDAkaDU0MTkxMzc0Mw..&shop_code=jaa3m4x9&original_referer=https%3A%2F%2Fdashboard.weeztix.com%2F&event=bab9dc50-11b0-4f1f-a8bf-49ca113b7c35",
+      "imageUrl": "",
+      "category": "wedstrijd"
     },
     {
       "date": "2026-11-13",
