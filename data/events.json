@@ -1,26 +1,6 @@
 {
   "events": [
     {
-      "date": "2026-09-16",
-      "title": "Finalistentour CFL",
-      "venue": "DOK6",
-      "city": "Panningen",
-      "description": "",
-      "ticketLink": "https://dok6.eu/theater/productie/comedy-festival-limburg/",
-      "imageUrl": "1899-12-30T20:05:39.000Z",
-      "category": "pro"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Finalistentour CFL",
-      "venue": "Kattendans",
-      "city": "Bergeijk",
-      "description": "",
-      "ticketLink": "https://kattendans.nl/voorstelling/comedy-festival-limburg/",
-      "imageUrl": "1899-12-30T20:05:39.000Z",
-      "category": "pro"
-    },
-    {
       "date": "2026-09-19",
       "title": "Finalistentour CFL",
       "venue": "Pand P",
@@ -92,7 +72,7 @@
     },
     {
       "date": "2026-11-13",
-      "title": "ONDER VOORBEHOUD: Nieuw Werk ",
+      "title": "Nieuw Werk ",
       "venue": "De Kempenaerstudio",
       "city": "Amsterdam",
       "description": "Theatersetting, 30 minuten",
