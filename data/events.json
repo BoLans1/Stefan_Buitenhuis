@@ -1,26 +1,6 @@
 {
   "events": [
     {
-      "date": "2026-09-24",
-      "title": "Beuningen Lacht",
-      "venue": "Theater de Molen",
-      "city": "Beuningen",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "openmic / try-out"
-    },
-    {
-      "date": "1 oktober",
-      "title": "Comedy Events",
-      "venue": "",
-      "city": "Zoetermeer",
-      "description": "",
-      "ticketLink": "",
-      "imageUrl": "",
-      "category": "openmic / try-out"
-    },
-    {
       "date": "13 oktober",
       "title": "Comedy Club Down Under",
       "venue": "Theater Castellum",
